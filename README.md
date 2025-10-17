@@ -77,3 +77,18 @@ Data Visualization: Finally, the cleaned and summarized data was visualized util
       dr.total_revenue / hc.total_rooms AS revenue_per_available_room
     FROM daily_revenue AS dr
     JOIN hotel_capacity AS hc ON dr.hotel = hc.hotel;
+
+<img width="1202" height="719" alt="image" src="https://github.com/user-attachments/assets/57e7cb89-f1ed-4183-9891-61a4df942a9d" />
+
+📊 **Key Findings & Implications**
+
+-- City Hotel Performance:
+- Higher ADR ($100.69 vs $92.45): 8.9% premium pricing power.
+- Significantly higher total revenue ($25.27M vs $17.44M): 44.8% more revenue.
+- Massive RevPAR advantage ($3.16M vs $1.74M): 81.2% higher revenue efficiency.
+
+-- Resort Hotel Performance:
+- Lower ADR: Potential underpricing or different market positioning.
+- Lower Total Revenue: Despite possibly similar room counts.
+- Significantly Lower RevPAR: Major revenue optimisation opportunity.
+
