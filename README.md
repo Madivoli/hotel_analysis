@@ -1,5 +1,7 @@
 ## Hotel Revenue Optimization & Booking Pattern Analysis
 
+![donald-teel-CFyJZMDyJJY-unsplash](https://github.com/user-attachments/assets/81947078-394e-4e5f-abe3-68d099c41a83)
+
 Have you ever wondered when the best time of year is to book a hotel room? Or what is the optimal length of stay to secure the best daily rate? What if you want to predict whether a hotel is likely to receive an unusually high number of special requests? 
 This hotel booking data analysis can help answer such questions!
 The dataset includes 119,334 booking records from both a city hotel and a resort hotel. It contains various information such as when the booking was made, the length of stay, the number of adults, children, and babies, as well as the number of available parking spaces, among other details. 
