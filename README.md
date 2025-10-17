@@ -12,7 +12,7 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 
 **Hotel General Manager / Strategic Leadership**
 
-**_Focus:** Overall business performance and long-term strategic planning._
+_**Focus:** Overall business performance and long-term strategic planning._
 
 - What are the key differences in performance and guest demographics between the City Hotel and the Resort Hotel?
 - What is the overall cancellation rate, and can we identify any patterns (e.g., by deposit type, lead time, or repeat guest status) that predict cancellations?
