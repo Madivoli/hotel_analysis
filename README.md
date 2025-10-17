@@ -107,3 +107,12 @@ Data Visualization: Finally, the cleaned and summarized data was visualized util
 - Develop tiered pricing for different room categories.
 - Optimize distribution channel mix for net revenue.
 
+Average daily rate (ADR) by month and hotel type.
+
+
+
+Total revenue (TR) by month and hotel type.
+
+
+
+Revenue per available room (RevPAR) by month and hotel type.
