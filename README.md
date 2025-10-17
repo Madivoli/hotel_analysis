@@ -80,7 +80,7 @@ Data Visualization: Finally, the cleaned and summarized data was visualized util
 
 <img width="1202" height="719" alt="image" src="https://github.com/user-attachments/assets/57e7cb89-f1ed-4183-9891-61a4df942a9d" />
 
-📊 **Key Findings & Implications**
+📊 **Key Findings**
 
 -- City Hotel Performance:
 - Higher ADR ($100.69 vs $92.45): 8.9% premium pricing power.
@@ -91,4 +91,19 @@ Data Visualization: Finally, the cleaned and summarized data was visualized util
 - Lower ADR: Potential underpricing or different market positioning.
 - Lower Total Revenue: Despite possibly similar room counts.
 - Significantly Lower RevPAR: Major revenue optimisation opportunity.
+
+🎯 **Implications and opportunities**
+- City Hotel has a stronger market position and pricing power.
+- Resort Hotel has significant room for rate optimisation.
+
+🚀 **Recommendations**
+
+-- For Resort:
+- Increase ADR by 10-15% through value-added packages.
+- Introduce premium pricing for high-demand periods.
+- Review competitor pricing in the resort category.
+
+-- For City Hotel: 
+- Develop tiered pricing for different room categories.
+- Optimize distribution channel mix for net revenue.
 
