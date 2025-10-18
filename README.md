@@ -2,10 +2,13 @@
 
 ![donald-teel-CFyJZMDyJJY-unsplash](https://github.com/user-attachments/assets/81947078-394e-4e5f-abe3-68d099c41a83)
 
-Have you ever wondered when the best time of year is to book a hotel room? Or what is the optimal length of stay to secure the best daily rate? What if you want to predict whether a hotel is likely to receive an unusually high number of special requests? 
-This hotel booking data analysis can help answer such questions!
+As a hotel manager, have you ever wondered about the average daily rate (ADR) and revenue per available room (RevPAR) of your hotel or resort? Are you curious about which market segments and distribution channels attract the highest-value customers based on ADR and length of stay? Do you want to know which countries are the top sources of guests, and how their booking lead times and cancellation rates differ? Additionally, would you like to establish the typical lead time for guest bookings and determine if a longer lead time correlates with a higher likelihood of cancellations? 
+
+This data analysis can help answer such questions! 
+
 The dataset includes 119,334 booking records from both a city hotel and a resort hotel. It contains various information such as when the booking was made, the length of stay, the number of adults, children, and babies, as well as the number of available parking spaces, among other details. 
-This rich resource can be valuable for various stakeholders in the hospitality industry. Here are the key stakeholders, the business questions they may have, and the tools used for analyzing this data.
+
+This rich resource can be valuable for various stakeholders in the hospitality industry. Here are the key stakeholders, the business questions they may have, and the tools used for analyzing the data.
 
 ##
 **Stakeholders**
@@ -41,17 +44,18 @@ _**Focus** Ensuring smooth hotel operations and efficient room allocation._
 ##
 **Project Structure and Tools**
 
-Data Processing and Manipulation: The analysis began with a thorough examination of the data to identify issues such as missing values, duplicate records, inconsistencies in data types, standardizing data, finding and replacing country codes with country names, and creating new columns, utilizing Excel Power Query, MySQL and Pandas for data cleaning and transformation.
+- **Data Processing and Manipulation:** The analysis begins with a thorough examination of the data to identify issues such as missing values, duplicate records, inconsistencies in data types, standardizing data, finding and replacing country codes with country names, and creating new columns, utilizing Excel Power Query, MySQL and Pandas for data cleaning and transformation.
 
-Data Summary and Trend Analysis: Subsequently, the booking data were summarized to identify trends, including total revenue, average pricing, and correlations. This analysis was performed using MySQL, Pandas and Tableau, leveraging tools such as DAX, key performance indicators (KPIs), and Power Query.
+- **Data Summary and Trend Analysis:** Subsequently, the booking data will be summarized to identify trends, including total revenue, average daily rate (ADR) and revenue per available room (RevPAR). This analysis will be performed using MySQL, Pandas and Tableau, leveraging tools such as Power Query, Key Performance Indicators (KPIs), Calculated Fields and Parameters.
 
-Data Visualization: Finally, the cleaned and summarized data was visualized utilizing Matplotlib, Tableau and Excel to enhance understanding and facilitate informed decision-making.
-
+- **Data Visualization:** Finally, the cleaned and summarized data will be visualized utilizing Matplotlib, Tableau and Excel to enhance understanding and facilitate informed decision-making.
 
 ##
 **Revenue Management & Pricing Team**
 
---Calculating the average daily rate (ADR), total revenue (TR) and revenue per available room (RevPAR) by month and hotel type.
+**Question 1:** What is the average daily rate (ADR) and revenue per available room (RevPAR) by month and hotel type?
+
+--Calculating the **average daily rate** (**ADR**), **total revenue** (**TR**) and **revenue per available room** (**RevPAR**)
 
     WITH hotel_capacity AS (
         SELECT 
@@ -107,12 +111,18 @@ Data Visualization: Finally, the cleaned and summarized data was visualized util
 - Develop tiered pricing for different room categories.
 - Optimize distribution channel mix for net revenue.
 
-Average daily rate (ADR) by month and hotel type.
+**ADR by month and hotel type:**
+![adr](https://github.com/user-attachments/assets/419c6215-3b2c-477b-9704-648956e705ee)
 
 
 
-Total revenue (TR) by month and hotel type.
+**TR by month and hotel type:**
+<img width="1172" height="480" alt="image" src="https://github.com/user-attachments/assets/05def408-f3df-4f55-808d-b7160b956188" />
 
 
 
-Revenue per available room (RevPAR) by month and hotel type.
+**RevPAR by month and hotel type:**
+<img width="1174" height="487" alt="image" src="https://github.com/user-attachments/assets/71a0dcaf-cfb8-4de3-8d1d-04b066160680" />
+
+
+**Question 2:** Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
