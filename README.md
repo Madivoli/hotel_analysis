@@ -15,28 +15,20 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 
 **Hotel General Manager / Strategic Leadership**
 
-_**Focus:** Overall business performance and long-term strategic planning._
-
 - What are the key differences in performance and guest demographics between the City Hotel and the Resort Hotel?
 - What is the overall cancellation rate, and can we identify any patterns (e.g., by deposit type, lead time, or repeat guest status) that predict cancellations?
 
 **Revenue Management & Pricing Team**
-
-_**Focus:** Maximizing revenue and optimizing pricing strategies._
 
 - What is the average daily rate (ADR) and revenue per available room (RevPAR) by month and hotel type?
 - Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
 
 **Marketing Team**
 
-_**Focus:** Optimizing marketing spend and understanding customer acquisition._
-
 - What are the most effective market segments and channels for securing bookings that do not get canceled?
 - Which countries are the top sources of guests, and how does their booking lead time and cancellation rate vary?
 
 **Operations & Reservations Team**
-
-_**Focus** Ensuring smooth hotel operations and efficient room allocation._
 
 - How far in advance (lead time) do guests typically book, and does a longer lead time correlate with a higher chance of cancellation?
 - What is the most common room type booked, and how often do guests get upgraded/downgraded from their reserved room type?
