@@ -111,18 +111,96 @@ _**Focus** Ensuring smooth hotel operations and efficient room allocation._
 - Develop tiered pricing for different room categories.
 - Optimize distribution channel mix for net revenue.
 
-**ADR by month and hotel type:**
+**ADR by month and hotel type**
+
 ![adr](https://github.com/user-attachments/assets/419c6215-3b2c-477b-9704-648956e705ee)
 
 
 
-**TR by month and hotel type:**
+**TR by month and hotel type**
+
 <img width="1172" height="480" alt="image" src="https://github.com/user-attachments/assets/05def408-f3df-4f55-808d-b7160b956188" />
 
 
 
 **RevPAR by month and hotel type:**
+
 <img width="1174" height="487" alt="image" src="https://github.com/user-attachments/assets/71a0dcaf-cfb8-4de3-8d1d-04b066160680" />
 
-
+##
 **Question 2:** Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
+
+-- Customer Value Analysis (CVA)
+
+    SELECT 
+        country,
+        market_segment,
+        distribution_channel,
+        total_guests,
+        ROUND(AVG(adr), 2) AS avg_adr,
+        ROUND(AVG(stays_total_nights)) as avg_length_of_stay,
+        ROUND(AVG(adr * (stays_total_nights)), 2) AS avg_total_revenue_per_stay,
+        ROUND(SUM(adr * (stays_total_nights)), 2) AS total_revenue
+    FROM hb_staging
+    WHERE is_canceled = 0  -- Only confirmed bookings
+    GROUP BY country, market_segment, distribution_channel, total_guests
+    ORDER BY avg_total_revenue_per_stay DESC;
+
+**CVA by country**
+
+<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/18133f6d-d5f4-43aa-8373-75795af59c52" />
+
+
+
+
+**CVA by market segment**
+
+<img width="1200" height="267" alt="image" src="https://github.com/user-attachments/assets/e20a1997-376b-4864-9ea3-b01ecd5b15e5" />
+
+
+
+**CVA by distribution channels**
+
+<img width="1200" height="234" alt="image" src="https://github.com/user-attachments/assets/8320dd9a-d50c-4fe2-9672-406d5ab9670e" />
+
+
+-- Further Analysis: Customer lifetime value (CLV/LTV) 
+
+    WITH customer_metrics AS (
+    SELECT 
+        country,
+        market_segment,
+        distribution_channel,
+        ROUND(AVG(adr), 2)as customer_avg_adr,
+        ROUND(AVG(stays_total_nights)) as customer_avg_stay,
+        COUNT(*) as total_stays,
+        SUM(adr * stays_total_nights) as lifetime_value
+    FROM hb_staging
+    WHERE is_canceled = 0
+    GROUP BY country, market_segment, distribution_channel
+    )
+    SELECT 
+        market_segment,
+        distribution_channel,
+        COUNT(*) as high_value_customers,
+        ROUND(AVG(customer_avg_adr), 2) as segment_avg_adr,
+        ROUND(AVG(customer_avg_stay)) as segment_avg_stay,
+        ROUND(AVG(lifetime_value), 2) as avg_lifetime_value,
+        ROUND(SUM(lifetime_value), 2) as total_segment_value
+    FROM customer_metrics
+    WHERE customer_avg_adr > (SELECT AVG(adr) FROM hb_staging WHERE is_canceled = 0)
+       OR customer_avg_stay > (SELECT AVG(stays_total_nights) FROM hb_staging WHERE is_canceled = 0)
+    GROUP BY market_segment, distribution_channel
+    ORDER BY avg_lifetime_value DESC;
+
+
+**CLV/LTV by market segment**
+
+<img width="1200" height="286" alt="image" src="https://github.com/user-attachments/assets/44cada11-87d0-44c5-a048-d192756ca45d" />
+
+
+<img width="1174" height="485" alt="image" src="https://github.com/user-attachments/assets/53824b89-52de-4eb1-aaab-e1613e2f9e91" />
+
+
+<img width="1170" height="485" alt="image" src="https://github.com/user-attachments/assets/c8c9f073-977d-4012-8e58-d9e56309b206" />
+
