@@ -109,6 +109,7 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 
 
 
+
 **TR by month and hotel type**
 
 <img width="1172" height="480" alt="image" src="https://github.com/user-attachments/assets/05def408-f3df-4f55-808d-b7160b956188" />
