@@ -11,7 +11,7 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 This rich resource can be valuable for various stakeholders in the hospitality industry. Here are the key stakeholders, the business questions they may have, and the tools used for analyzing the data.
 
 ##
-**Stakeholders**
+**Stakeholders and Business Questions**
 
 **Hotel General Manager / Strategic Leadership**
 
@@ -42,10 +42,45 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 
 - **Data Visualization:** Finally, the cleaned and summarized data will be visualized utilizing Matplotlib, Tableau and Excel to enhance understanding and facilitate informed decision-making.
 
-##
-**Revenue Management & Pricing Team**
+---
+**Hotel General Manager / Strategic Leadership**
 
-**Question 1:** What is the average daily rate (ADR) and revenue per available room (RevPAR) by month and hotel type?
+-- Calculating **Key Performance Metrics**
+
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    hb = pd.read_csv("C:\\Users\\Madivoli Analytics\\OneDrive\\Documents\\Projects\\Hotel Bookings\\bookings_analysis.csv")
+
+--
+    1. Average ADR (Average Daily Rate)
+    
+    avg_adr = hb['adr'].mean().round()
+    print(f"\n1. Average ADR: ${avg_adr:.2f}")
+
+Average ADR: $102.00
+
+--
+    2. Average Lead Time
+    
+    avg_lead_time = hb['lead_time'].mean()
+    print(f"2. Average Lead Time: {avg_lead_time:.1f} days")
+
+Average Lead Time: 104.0 days
+
+--
+    3. Cancellation Rate
+    
+    total_bookings = len(hb)
+    cancelled_bookings = hb['is_canceled'].sum()
+    cancellation_rate = (cancelled_bookings / total_bookings) * 100
+    print(f" Cancellation Rate: {cancellation_rate:.2f}%")
+
+Cancellation Rate: 37.04%
+
+---
+**Revenue Management & Pricing Team**
 
 --Calculating the **average daily rate** (**ADR**), **total revenue** (**TR**) and **revenue per available room** (**RevPAR**)
 
@@ -109,7 +144,6 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 
 
 
-
 **TR by month and hotel type**
 
 <img width="1172" height="480" alt="image" src="https://github.com/user-attachments/assets/05def408-f3df-4f55-808d-b7160b956188" />
@@ -164,10 +198,10 @@ This rich resource can be valuable for various stakeholders in the hospitality i
         country,
         market_segment,
         distribution_channel,
-        ROUND(AVG(adr), 2)as customer_avg_adr,
-        ROUND(AVG(stays_total_nights)) as customer_avg_stay,
+        ROUND(AVG(adr), 2) AS customer_avg_adr,
+        ROUND(AVG(stays_total_nights)) AS customer_avg_stay,
         COUNT(*) as total_stays,
-        SUM(adr * stays_total_nights) as lifetime_value
+        SUM(adr * stays_total_nights) AS lifetime_value
     FROM hb_staging
     WHERE is_canceled = 0
     GROUP BY country, market_segment, distribution_channel
@@ -176,10 +210,10 @@ This rich resource can be valuable for various stakeholders in the hospitality i
         market_segment,
         distribution_channel,
         COUNT(*) as high_value_customers,
-        ROUND(AVG(customer_avg_adr), 2) as segment_avg_adr,
-        ROUND(AVG(customer_avg_stay)) as segment_avg_stay,
-        ROUND(AVG(lifetime_value), 2) as avg_lifetime_value,
-        ROUND(SUM(lifetime_value), 2) as total_segment_value
+        ROUND(AVG(customer_avg_adr), 2) AS segment_avg_adr,
+        ROUND(AVG(customer_avg_stay)) AS segment_avg_stay,
+        ROUND(AVG(lifetime_value), 2) AS avg_lifetime_value,
+        ROUND(SUM(lifetime_value), 2) AS total_segment_value
     FROM customer_metrics
     WHERE customer_avg_adr > (SELECT AVG(adr) FROM hb_staging WHERE is_canceled = 0)
        OR customer_avg_stay > (SELECT AVG(stays_total_nights) FROM hb_staging WHERE is_canceled = 0)
