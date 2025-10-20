@@ -33,6 +33,7 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 - How far in advance (lead time) do guests typically book, and does a longer lead time correlate with a higher chance of cancellation?
 - What is the most common room type booked, and how often do guests get upgraded/downgraded from their reserved room type?
 
+
 ##
 **Project Structure and Tools**
 
