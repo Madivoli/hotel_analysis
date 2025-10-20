@@ -97,19 +97,37 @@ This rich resource can be valuable for various stakeholders in the hospitality i
         metrics_by_hotel.columns = ['Avg_ADR', 'Avg_Lead_Time_Days', 'Cancellation_Rate_%', 'Avg_Special_Requests']
         print(metrics_by_hotel)
 
-##
-==================================================
-METRICS BY HOTEL TYPE
-==================================================
-              Avg_ADR  Avg_Lead_Time_Days  Cancellation_Rate_%  \
-hotel_type                                                       
-City Hotel     105.35              109.76                41.73   
-Resort Hotel    94.96               92.68                27.76   
+<img width="1080" height="324" alt="image" src="https://github.com/user-attachments/assets/bbdba6b1-1f0a-44ec-8c0a-b01fe8d99c49" />
 
-              Avg_Special_Requests  
-hotel_type                          
-City Hotel                    0.55  
-Resort Hotel                  0.62  
+
+##
+**-- Guest demographics between the City Hotel and the Resort Hotel**
+
+--1. Geographic distribution (Top 10)
+
+    SELECT 
+        hotel_type,
+        country,
+        SUM(adults + children + babies) AS guest_count
+    FROM hb_staging
+    GROUP BY hotel_type, country
+    ORDER BY hotel_type, guest_count DESC;
+
+
+<img width="1202" height="962" alt="image" src="https://github.com/user-attachments/assets/2e52b091-391c-4cca-a187-259bf5831305" />
+
+
+--2. Repeat guest distribution
+
+    SELECT 
+        hotel_type,
+        is_repeated_guest,
+        COUNT(adults + children + babies) AS guest_count
+    FROM hb_staging
+    GROUP BY hotel_type, is_repeated_guest
+    ORDER BY hotel_type, is_repeated_guest;
+
+<img width="1200" height="167" alt="image" src="https://github.com/user-attachments/assets/15fcabe3-1819-4da1-8088-7c4505bd4faf" />
 
 ---
 **Revenue Management & Pricing Team**
