@@ -59,7 +59,7 @@ This rich resource can be valuable for various stakeholders in the hospitality i
     avg_adr = hb['adr'].mean().round()
     print(f"\n1. Average ADR: ${avg_adr:.2f}")
 
-Average ADR: $102.00
+**Average ADR: $102.00**
 
 --
     2. Average Lead Time
@@ -67,7 +67,7 @@ Average ADR: $102.00
     avg_lead_time = hb['lead_time'].mean()
     print(f"2. Average Lead Time: {avg_lead_time:.1f} days")
 
-Average Lead Time: 104.0 days
+**Average Lead Time: 104.0 days**
 
 --
     3. Cancellation Rate
@@ -77,7 +77,39 @@ Average Lead Time: 104.0 days
     cancellation_rate = (cancelled_bookings / total_bookings) * 100
     print(f" Cancellation Rate: {cancellation_rate:.2f}%")
 
-Cancellation Rate: 37.04%
+**Cancellation Rate: 37.04%**
+
+
+--Calculating KPIs segmented by hotel type
+
+    if 'hotel_type' in hb.columns:
+        print("\n" + "="*50)
+        print("METRICS BY HOTEL TYPE")
+        print("="*50)
+    
+        metrics_by_hotel = hb.groupby('hotel_type').agg({
+            'adr': 'mean',
+            'lead_time': 'mean',
+            'is_canceled': lambda x: (x.sum() / len(x)) * 100,
+            'total_of_special_requests': 'mean'
+        }).round(2)
+    
+        metrics_by_hotel.columns = ['Avg_ADR', 'Avg_Lead_Time_Days', 'Cancellation_Rate_%', 'Avg_Special_Requests']
+        print(metrics_by_hotel)
+
+##
+==================================================
+METRICS BY HOTEL TYPE
+==================================================
+              Avg_ADR  Avg_Lead_Time_Days  Cancellation_Rate_%  \
+hotel_type                                                       
+City Hotel     105.35              109.76                41.73   
+Resort Hotel    94.96               92.68                27.76   
+
+              Avg_Special_Requests  
+hotel_type                          
+City Hotel                    0.55  
+Resort Hotel                  0.62  
 
 ---
 **Revenue Management & Pricing Team**
