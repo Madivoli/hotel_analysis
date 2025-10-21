@@ -46,7 +46,7 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 ---
 **Hotel General Manager / Strategic Leadership**
 
--- Calculating **Key Performance Metrics**
+**--Calculating Key Performance Metrics**
 
     import pandas as pd
     import matplotlib.pyplot as plt
@@ -60,7 +60,7 @@ This rich resource can be valuable for various stakeholders in the hospitality i
     avg_adr = hb['adr'].mean().round()
     print(f"\n1. Average ADR: ${avg_adr:.2f}")
 
-**Average ADR: $102.00**
+_Average ADR: $102.00_
 
 --
     2. Average Lead Time
@@ -68,20 +68,11 @@ This rich resource can be valuable for various stakeholders in the hospitality i
     avg_lead_time = hb['lead_time'].mean()
     print(f"2. Average Lead Time: {avg_lead_time:.1f} days")
 
-**Average Lead Time: 104.0 days**
-
---
-    3. Cancellation Rate
-    
-    total_bookings = len(hb)
-    cancelled_bookings = hb['is_canceled'].sum()
-    cancellation_rate = (cancelled_bookings / total_bookings) * 100
-    print(f" Cancellation Rate: {cancellation_rate:.2f}%")
-
-**Cancellation Rate: 37.04%**
+_Average Lead Time: 104.0 days_
 
 
---Calculating KPIs segmented by hotel type
+
+**--Calculating KPIs segmented by hotel type**
 
     if 'hotel_type' in hb.columns:
         print("\n" + "="*50)
@@ -104,7 +95,7 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 ##
 **-- Guest demographics between the City Hotel and the Resort Hotel**
 
---1. Geographic distribution (Top 10)
+--1. Geographic distribution (Top 10 source countries)
 
     SELECT 
         hotel_type,
@@ -130,6 +121,43 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 
 <img width="1200" height="167" alt="image" src="https://github.com/user-attachments/assets/15fcabe3-1819-4da1-8088-7c4505bd4faf" />
 
+---
+**Cancellation Rate**
+    
+    total_bookings = len(hb)
+    cancelled_bookings = hb['is_canceled'].sum()
+    cancellation_rate = (cancelled_bookings / total_bookings) * 100
+    print(f" Cancellation Rate: {cancellation_rate:.2f}%")
+
+_Cancellation Rate: 37.04%_
+
+
+**Cancellation rate patterns**
+
+--1. Lead time analysis by cancellation status
+
+    lead_time_by_cancel = hb.groupby('is_canceled')['lead_time'].agg(['mean', 'median'])
+    print(f"\nLead Time Analysis (in days):")
+    print(f"  Not Cancelled - Mean: {lead_time_by_cancel.iloc[0, 0]:.1f}, Median: {lead_time_by_cancel.iloc[0, 1]:.1f}")
+    print(f"  Cancelled - Mean: {lead_time_by_cancel.iloc[1, 0]:.1f}, Median: {lead_time_by_cancel.iloc[1, 1]:.1f}")
+
+<img width="1200" height="73" alt="image" src="https://github.com/user-attachments/assets/503a4491-ed6e-4bb1-a7f8-4c8df32a0510" />
+
+
+--2. Cancellation rates by deposit type
+
+    plt.figure(figsize=(10, 6))
+    deposit_cancel = hb.groupby('deposit_type')['is_canceled'].mean().sort_values(ascending=False)
+    deposit_cancel.plot(kind='bar', title='Cancellation Rate by Deposit Type')
+    plt.ylabel('Cancellation Rate')
+    plt.show()
+
+    print("Cancellation rates by deposit type:")
+    for deposit_type, rate in deposit_cancel.items():
+        count = hb[hb['deposit_type'] == deposit_type].shape[0]
+        print(f"{deposit_type}: {rate:.2%} ({count} bookings)")
+
+        
 ---
 **Revenue Management & Pricing Team**
 
