@@ -54,23 +54,23 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 
     hb = pd.read_csv("C:\\Users\\Madivoli Analytics\\OneDrive\\Documents\\Projects\\Hotel Bookings\\bookings_analysis.csv")
 
---
-    1. Average ADR (Average Daily Rate)
+
+--1. Average ADR (Average Daily Rate)
     
     avg_adr = hb['adr'].mean().round()
     print(f"\n1. Average ADR: ${avg_adr:.2f}")
 
 _Average ADR: $102.00_
 
---
-    2. Average Lead Time
+##
+--2. Average Lead Time
     
     avg_lead_time = hb['lead_time'].mean()
     print(f"2. Average Lead Time: {avg_lead_time:.1f} days")
 
 _Average Lead Time: 104.0 days_
 
-
+##
 
 **--Calculating KPIs segmented by hotel type**
 
@@ -93,7 +93,7 @@ _Average Lead Time: 104.0 days_
 
 
 ##
-**-- Guest demographics between the City Hotel and the Resort Hotel**
+**--Guest demographics between the City Hotel and the Resort Hotel**
 
 --1. Geographic distribution (Top 10 source countries)
 
@@ -105,10 +105,12 @@ _Average Lead Time: 104.0 days_
     GROUP BY hotel_type, country
     ORDER BY hotel_type, guest_count DESC;
 
+<img width="1515" height="600" alt="image" src="https://github.com/user-attachments/assets/012d3552-a97d-4e9c-b4ef-49ad05f17120" />
+
 
 <img width="1202" height="962" alt="image" src="https://github.com/user-attachments/assets/2e52b091-391c-4cca-a187-259bf5831305" />
 
-
+##
 --2. Repeat guest distribution
 
     SELECT 
@@ -121,7 +123,7 @@ _Average Lead Time: 104.0 days_
 
 <img width="1200" height="167" alt="image" src="https://github.com/user-attachments/assets/15fcabe3-1819-4da1-8088-7c4505bd4faf" />
 
----
+##
 **Cancellation Rate**
     
     total_bookings = len(hb)
@@ -131,7 +133,7 @@ _Average Lead Time: 104.0 days_
 
 _Cancellation Rate: 37.04%_
 
-
+##
 **Cancellation rate patterns**
 
 --1. Lead time analysis by cancellation status
@@ -143,7 +145,7 @@ _Cancellation Rate: 37.04%_
 
 <img width="1200" height="73" alt="image" src="https://github.com/user-attachments/assets/503a4491-ed6e-4bb1-a7f8-4c8df32a0510" />
 
-
+##
 --2. Cancellation rates by deposit type
 
     plt.figure(figsize=(10, 6))
@@ -157,11 +159,12 @@ _Cancellation Rate: 37.04%_
         count = hb[hb['deposit_type'] == deposit_type].shape[0]
         print(f"{deposit_type}: {rate:.2%} ({count} bookings)")
 
-        
+  <img width="1500" height="119" alt="image" src="https://github.com/user-attachments/assets/adecf53d-76d1-4285-a6ec-e8183bfb2cae" />
+
 ---
 **Revenue Management & Pricing Team**
 
---Calculating the **average daily rate** (**ADR**), **total revenue** (**TR**) and **revenue per available room** (**RevPAR**)
+--**Calculating the **average daily rate** (**ADR**), **total revenue** (**TR**) and **revenue per available room** (**RevPAR**)**
 
     WITH hotel_capacity AS (
         SELECT 
@@ -217,26 +220,27 @@ _Cancellation Rate: 37.04%_
 - Develop tiered pricing for different room categories.
 - Optimize distribution channel mix for net revenue.
 
+##
+
 **ADR by month and hotel type**
 
 ![adr](https://github.com/user-attachments/assets/419c6215-3b2c-477b-9704-648956e705ee)
 
-
+##
 
 **TR by month and hotel type**
 
 <img width="1172" height="480" alt="image" src="https://github.com/user-attachments/assets/05def408-f3df-4f55-808d-b7160b956188" />
 
-
+##
 
 **RevPAR by month and hotel type:**
 
 <img width="1174" height="487" alt="image" src="https://github.com/user-attachments/assets/71a0dcaf-cfb8-4de3-8d1d-04b066160680" />
 
 ##
-**Question 2:** Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
 
--- Customer Value Analysis (CVA)
+-- **Calculating customer value [Customer Value Analysis (CVA)]**
 
     SELECT 
         country,
@@ -257,19 +261,18 @@ _Cancellation Rate: 37.04%_
 <img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/18133f6d-d5f4-43aa-8373-75795af59c52" />
 
 
-
-
+##
 **CVA by market segment**
 
 <img width="1200" height="267" alt="image" src="https://github.com/user-attachments/assets/e20a1997-376b-4864-9ea3-b01ecd5b15e5" />
 
 
-
+##
 **CVA by distribution channels**
 
 <img width="1200" height="234" alt="image" src="https://github.com/user-attachments/assets/8320dd9a-d50c-4fe2-9672-406d5ab9670e" />
 
-
+##
 -- Further Analysis: Customer lifetime value (CLV/LTV) 
 
     WITH customer_metrics AS (
@@ -299,14 +302,37 @@ _Cancellation Rate: 37.04%_
     GROUP BY market_segment, distribution_channel
     ORDER BY avg_lifetime_value DESC;
 
-
 **CLV/LTV by market segment**
 
 <img width="1200" height="286" alt="image" src="https://github.com/user-attachments/assets/44cada11-87d0-44c5-a048-d192756ca45d" />
 
 
-<img width="1174" height="485" alt="image" src="https://github.com/user-attachments/assets/53824b89-52de-4eb1-aaab-e1613e2f9e91" />
 
 
-<img width="1170" height="485" alt="image" src="https://github.com/user-attachments/assets/c8c9f073-977d-4012-8e58-d9e56309b206" />
+##
+**CLV/LTV by distribution channels**
 
+<img width="1515" height="357" alt="image" src="https://github.com/user-attachments/assets/3f4d782b-675d-49b1-876b-1fe87176a8a0" />
+
+
+---
+**Marketing Team**
+
+--Calculating the most effective market segments  
+
+<img width="1500" height="244" alt="image" src="https://github.com/user-attachments/assets/0c5eec87-eb32-4756-8a95-8a359eba4027" />
+
+##
+--Calculating the most effective market channels 
+
+<img width="1500" height="170" alt="image" src="https://github.com/user-attachments/assets/bce5c72e-1be9-4b99-9b7c-eded6216cca3" />
+
+##
+--The top sources of guests by bookings
+
+<img width="1500" height="269" alt="image" src="https://github.com/user-attachments/assets/8b361b5b-7e03-4a7b-a7b7-f69de7994a69" />
+
+##
+--Countries by lead time
+
+<img width="1500" height="289" alt="image" src="https://github.com/user-attachments/assets/73cbbfac-63e3-4335-87dd-4bd215e0d2bb" />
