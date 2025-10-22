@@ -107,8 +107,9 @@ _Average Lead Time: 104.0 days_
 
 <img width="1515" height="600" alt="image" src="https://github.com/user-attachments/assets/012d3552-a97d-4e9c-b4ef-49ad05f17120" />
 
+<img width="1202" height="917" alt="image" src="https://github.com/user-attachments/assets/db48291a-c256-4823-abad-fe89b8e32c55" />
 
-<img width="1202" height="962" alt="image" src="https://github.com/user-attachments/assets/2e52b091-391c-4cca-a187-259bf5831305" />
+
 
 ##
 --2. Repeat guest distribution
