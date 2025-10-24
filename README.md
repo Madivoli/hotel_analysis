@@ -2,13 +2,14 @@
 
 ![donald-teel-CFyJZMDyJJY-unsplash](https://github.com/user-attachments/assets/81947078-394e-4e5f-abe3-68d099c41a83)
 
+**Project Overview**
+
 As a hotel manager, have you ever wondered about the average daily rate (ADR) and revenue per available room (RevPAR) of your hotel or resort? Are you curious about which market segments and distribution channels attract the highest-value customers based on ADR and length of stay? Do you want to know which countries are the top sources of guests, and how their booking lead times and cancellation rates differ? Additionally, would you like to establish the typical lead time for guest bookings and determine if a longer lead time correlates with a higher likelihood of cancellations? 
 
-This data analysis can help answer such questions! 
+This data analysis helps answer such questions!
 
-The dataset includes 119,334 booking records from both a city hotel and a resort hotel. It contains various information such as when the booking was made, the length of stay, the number of adults, children, and babies, as well as the number of available parking spaces, among other details. 
+The dataset includes 119,334 booking records from both a city hotel and a resort hotel. It contains various information such as when the booking was made, the length of stay, the number of adults, children, and babies, as well as the number of available parking spaces, among other details. This rich resource is valuable for various stakeholders in the hospitality industry. Here are the key stakeholders, the business questions they may have, and the project struture and tools used for analysing the data.
 
-This rich resource can be valuable for various stakeholders in the hospitality industry. Here are the key stakeholders, the business questions they may have, and the tools used for analyzing the data.
 
 ##
 **Stakeholders and Business Questions**
@@ -46,13 +47,10 @@ This rich resource can be valuable for various stakeholders in the hospitality i
 ---
 **Hotel General Manager / Strategic Leadership**
 
-**--Calculating Key Performance Metrics**
+**Key Performance Metrics:**
 
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    import seaborn as sns
+<img width="1200" height="459" alt="image" src="https://github.com/user-attachments/assets/a29274f1-e58d-42b7-afe7-01d8d0583258" />
 
-    hb = pd.read_csv("C:\\Users\\Madivoli Analytics\\OneDrive\\Documents\\Projects\\Hotel Bookings\\bookings_analysis.csv")
 
 
 --1. Average ADR (Average Daily Rate)
