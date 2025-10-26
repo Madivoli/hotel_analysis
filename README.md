@@ -63,7 +63,7 @@ B. **The Resort Hotel**
 - **Better Commitment:** The Resort Hotel has a lower, though still high, cancellation rate (27.76%), shorter lead time (92.68 days), and slightly higher engagement (0.62 special requests).
 - **Guest Profile:** This profile is typical of leisure travellers who plan a bit closer to the date and are slightly more invested in their booking (higher special requests). The long lead time remains a risk factor, but their higher engagement suggests a need for less drastic policy measures than those implemented by the City Hotel.
 
-**Strategic Recommendations:**
+**Recommendations:**
 
 The hotels must implement different commitment strategies for each segment to combat the $4.5 million in lost revenue.
 
@@ -84,24 +84,6 @@ The Resort Hotel's policy should be softer to maintain the slightly better booki
 
 
 
-**--KPIs segmented by hotel type**
-
-    if 'hotel_type' in hb.columns:
-        print("\n" + "="*50)
-        print("METRICS BY HOTEL TYPE")
-        print("="*50)
-    
-        metrics_by_hotel = hb.groupby('hotel_type').agg({
-            'adr': 'mean',
-            'lead_time': 'mean',
-            'is_canceled': lambda x: (x.sum() / len(x)) * 100,
-            'total_of_special_requests': 'mean'
-        }).round(2)
-    
-        metrics_by_hotel.columns = ['Avg_ADR', 'Avg_Lead_Time_Days', 'Cancellation_Rate_%', 'Avg_Special_Requests']
-        print(metrics_by_hotel)
-
-<img width="1080" height="324" alt="image" src="https://github.com/user-attachments/assets/bbdba6b1-1f0a-44ec-8c0a-b01fe8d99c49" />
 
 
 ##
@@ -175,7 +157,34 @@ _Cancellation Rate: 37.04%_
   <img width="1500" height="119" alt="image" src="https://github.com/user-attachments/assets/adecf53d-76d1-4285-a6ec-e8183bfb2cae" />
 
 ---
-**Revenue Management & Pricing Team**
+**REVENUE MANAGEMENT & PRICING TEAM**
+
+**PERFORMANCE METRICS** 
+<img width="1200" height="1488" alt="image" src="https://github.com/user-attachments/assets/50f72504-b1bc-41b4-9309-316e8d8b30d5" />
+
+
+**Recommendations:**
+
+1. **Revenue and Policy Optimisation:**
+   
+a)	**Implement Stricter Cancellation Policies:** Introduce or strengthen policies, especially for non-refundable or semi-flexible rates. For instance, **offer a tiered pricing structure**: _Non-Refundable_ (Lowest Price), _Partially-Refundable/Semi-Flexible_ (Mid Price), and _Fully-Flexible_ (Highest Price).
+
+b)	**Deposit and Pre-payment Requirements:** For bookings far out or during peak demand periods, **require a non-refundable deposit** (e.g., 1 night's stay) or **full pre-payment** to secure the reservation, shifting the risk to the guest.
+
+c)	**Dynamic Rate Adjustments:** Analyse if cancellations are concentrated around specific channels or lead times. Use data to adjust rates or restrictions to deter low-commitment bookings dynamically.
+
+2. **Lock Down Long-Lead Revenue:**
+   
+The hotels must implement **Lead-Time-Based Cancellation Policies** to secure the $4.5 million in lost revenue due to cancellations.
+
+a)	**Introduce a Stricter, Time-Sensitive Deposit Policy:**
+- **Bookings > 90 Days Out (The 104-Day Problem)**: Mandate a non-refundable deposit equal to at least one night's stay to secure the reservation. This immediately converts placeholder bookings into revenue-secured commitments.
+- **Bookings < 30 Days Out:** Maintain the current policy (or a slightly tightened 48-hour free cancellation), as these guests are typically more committed.
+  
+b)	**Refine the Non-Refundable Rate:** Ensure the non-refundable rate is the lowest published price and is heavily promoted for bookings made >60 days out.
+
+c)	**Implement a "Rate Lock" Option:** Allow a guest to pay a small, non-refundable fee (e.g., $10-$20) to hold a flexible rate for 48 hours, mimicking the successful tactics used by airlines, to reduce unnecessary free inventory blocks.
+
 
 --**Calculating the **average daily rate** (**ADR**), **total revenue** (**TR**) and **revenue per available room** (**RevPAR**)**
 
