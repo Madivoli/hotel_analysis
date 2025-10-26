@@ -45,32 +45,46 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 - **Data Visualization:** Finally, the cleaned and summarized data will be visualized utilizing Matplotlib, Tableau and Excel to enhance understanding and facilitate informed decision-making.
 
 ---
-**Hotel General Manager / Strategic Leadership**
+**HOTEL GENERAL MANAGER / STRATEGIC LEADERSHIP**
 
-**Key Performance Metrics:**
+**Performance Metrics by Hotel Type:**
 
-<img width="1200" height="459" alt="image" src="https://github.com/user-attachments/assets/a29274f1-e58d-42b7-afe7-01d8d0583258" />
+<img width="1200" height="488" alt="image" src="https://github.com/user-attachments/assets/e07efc53-e2f1-499c-9cf2-e246f287bffc" />
+
+**Segment-Specific Insights:**
+
+A. **The City Hotel (The Core Problem)**
+
+- **Higher Risk, Higher Price:** The City Hotel has the highest ADR ($105.35) but is experiencing a higher 41.73% cancellation rate.
+- **Placeholder Bookings:** The City Hotel's lead time is the longest (109.76 days), and its guest engagement is the lowest (0.55 special requests). This confirms that a high volume of long-lead, non-committed "placeholder" bookings are inflating the forecast and causing massive revenue leakage.
+- **Guest Profile:** This profile strongly suggests a high volume of business travellers or deal-seekers who book early on flexible rates across multiple properties, with the intention of cancelling all but one later on.
+  
+B. **The Resort Hotel**
+- **Better Commitment:** The Resort Hotel has a lower, though still high, cancellation rate (27.76%), shorter lead time (92.68 days), and slightly higher engagement (0.62 special requests).
+- **Guest Profile:** This profile is typical of leisure travellers who plan a bit closer to the date and are slightly more invested in their booking (higher special requests). The long lead time remains a risk factor, but their higher engagement suggests a need for less drastic policy measures than those implemented by the City Hotel.
+
+**Strategic Recommendations:**
+
+The hotels must implement different commitment strategies for each segment to combat the $4.5 million in lost revenue.
+
+1.**Immediate Action: Secure City Hotel Revenue**
+
+The City Hotel's priority is to convert non-committed bookings into secure revenue.
+- **Policy Change:** Implement a **Tiered Non-Refundable Deposit Policy** for all City Hotel bookings made more than 60 days out.
+- **Mandatory:** Require a non-refundable deposit equal to 1-2 nights' ADR ($105.35 to $210.70) to confirm any booking with a lead time of 60+ days. This aligns the financial commitment with the long time window.
+- **Drive Engagement:** Introduce a highly visible "_Personalise Your Stay_" pop-up during the City Hotel booking flow that requires the guest to choose at least one item (e.g., preferred bed size, floor level, early check-in preference). This artificially increases the Special Requests figure and guest psychological commitment.
+  
+2. **Targeted Action: Optimize Resort Hotel Revenue**
+   
+The Resort Hotel's policy should be softer to maintain the slightly better booking behaviour.
+- **Incentivise Commitment:** For all Resort bookings with a lead time >90$ days, send a "Commitment Offer" at the 60-day mark: "_Confirm your stay is non-refundable now for an extra $10 off, or receive a complimentary spa voucher/resort credit._" This encourages the guest to commit financially for a perk.
+- **Utilise Engagement:** Focus on **upselling** via special requests (e.g., pre-ordering cabana rentals, dinner reservations, or package upgrades) to secure additional ancillary revenue and further cement the bookings.
 
 
 
---1. Average ADR (Average Daily Rate)
-    
-    avg_adr = hb['adr'].mean().round()
-    print(f"\n1. Average ADR: ${avg_adr:.2f}")
 
-_Average ADR: $102.00_
 
-##
---2. Average Lead Time
-    
-    avg_lead_time = hb['lead_time'].mean()
-    print(f"2. Average Lead Time: {avg_lead_time:.1f} days")
-
-_Average Lead Time: 104.0 days_
-
-##
-
-**--Calculating KPIs segmented by hotel type**
+**--KPIs segmented by hotel type**
 
     if 'hotel_type' in hb.columns:
         print("\n" + "="*50)
