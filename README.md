@@ -11,7 +11,7 @@ This data analysis helps answer such questions!
 The dataset includes 119,334 booking records from both a city hotel and a resort hotel. It contains various information such as when the booking was made, the length of stay, the number of adults, children, and babies, as well as the number of available parking spaces, among other details. This rich resource is valuable for various stakeholders in the hospitality industry. Here are the key stakeholders, the business questions they may have, and the project struture and tools used for analysing the data.
 
 
-##
+---
 
 **Stakeholders and Business Questions**
 
@@ -36,7 +36,7 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 - What is the most common room type booked, and how often do guests get upgraded/downgraded from their reserved room type?
 
 
-##
+---
 **Project Structure and Tools**
 
 - **Data Processing and Manipulation:** The analysis begins with a thorough examination of the data to identify issues such as missing values, duplicate records, inconsistencies in data types, standardizing data, finding and replacing country codes with country names, and creating new columns, utilizing Excel Power Query, MySQL and Pandas for data cleaning and transformation.
@@ -99,6 +99,12 @@ The analysis reveals a distinct pattern characterized by pronounced peaks follow
 This analysis highlights the changes in the cancellation rate expressed in percentage points compared to the previous year. A positive value indicates that the cancellation problem is worsening, whereas a negative value suggests improvement. The Resort Hotel shows a concerning trend of consistently rising cancellation rates during the comparative period. For example, the **cancellation rate increased by 5.99 percentage points and 4.3 percentage points in July and August 2017**, down from 31.64% and 34.2% in 2026, respectively.
 
 <img width="1502" height="692" alt="image" src="https://github.com/user-attachments/assets/493d72f7-34c6-486c-a6b2-b2063974cc37" />
+
+**Recommendations**
+
+The company must adopt **segmented revenue strategies** that target the different growth and cancellation dynamics of the two hotel types.
+
+
 
 
 ---
