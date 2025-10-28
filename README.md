@@ -121,15 +121,7 @@ The goal is to **protect healthy revenue growth** by increasing customer commitm
 
 
 
----
-**--Guest demographics between the City Hotel and the Resort Hotel**
 
---1. Geographic distribution (Top 10 source countries)
-
- 
-<img width="1515" height="600" alt="image" src="https://github.com/user-attachments/assets/012d3552-a97d-4e9c-b4ef-49ad05f17120" />
-
-<img width="1202" height="917" alt="image" src="https://github.com/user-attachments/assets/db48291a-c256-4823-abad-fe89b8e32c55" />
 
 
 
@@ -361,6 +353,12 @@ c)	**Implement a "Rate Lock" Option:** Allow a guest to pay a small, non-refunda
 
 ---
 **Marketing Team**
+
+**Top 10 Sources of Guests by Hotel Type**
+
+<img width="1502" height="962" alt="image" src="https://github.com/user-attachments/assets/935c0a9f-6684-4265-b667-6c2fe4216cc9" />
+
+
 
 --Calculating the most effective market segments  
 
