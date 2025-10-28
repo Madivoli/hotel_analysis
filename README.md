@@ -102,8 +102,22 @@ This analysis highlights the changes in the cancellation rate expressed in perce
 
 **Recommendations**
 
-The company must adopt **segmented revenue strategies** that target the different growth and cancellation dynamics of the two hotel types.
+The company should implement **segmented revenue strategies** that address the distinct growth and cancellation dynamics of the two types of hotels.
 
+**A. Strategic Focus: City Hotel (High Volatility, Maturing Market)**  
+
+The objective is to **lock in existing demand** and stabilise the booking forecast.
+
+1. **Mandatory Non-Refundable Policy for Long Leads:** It is essential to focus on the months where the cancellation rate is worsening, and revenue growth is slowing (e.g., Q3 of 2017). Leadership should implement **a mandatory non-refundable deposit** (or full non-refundable rate) for any bookings made **more than 90 days** in advance. This approach will convert long-lead, high-risk "placeholder" bookings into actual revenue, directly addressing the core issues facing the City Hotel.
+
+2. **Dynamic Pricing & Inventory Control:** During periods when year-over-year (YoY) cancellation rates are significantly positive (worsening, such as an increase of +4 percentage points in July), the hotel should **temporarily restrict inventory available** on high-flexibility, low-commitment channels (like certain Online Travel Agencies, or OTAs) for the same month in the following year.
+
+**B. Strategic Focus: Resort Hotel (Sustainable Growth, Escalating Risk)**  
+The goal is to **protect healthy revenue growth** by increasing customer commitment without discouraging new bookings.
+
+1. **Value-Added Pre-Commitment:** Instead of simply requiring a cash deposit (which could deter leisure bookings), leadership should leverage the average long lead time (92.68 days) to sell **non-refundable, value-added ancillary services**. For example, a $50 non-refundable pre-payment could be required for a poolside cabana or spa treatment, which would secure a 10-15% discount on that service. This strategy utilizes the "Special Requests" metric to ensure cash commitment.
+
+2. **Targeted Channel Review:** Leadership should promptly review the Resort Hotel's booking channels during months with the highest increases in cancellation rates (for instance, July’s +5.99 percentage points). If a specific third-party travel agent or OTA is contributing to low-commitment bookings, **stricter cancellation terms should be negotiated**, or their **inventory allotment should be reduced**.
 
 
 
