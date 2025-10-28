@@ -72,7 +72,7 @@ The hotels must implement different commitment strategies for each segment to co
 The City Hotel's priority is to convert non-committed bookings into secure revenue.
 - **Policy Change:** Implement a **Tiered Non-Refundable Deposit Policy** for all City Hotel bookings made more than 60 days out.
 - **Mandatory:** Require a non-refundable deposit equal to 1-2 nights' ADR ($105.35 to $210.70) to confirm any booking with a lead time of 60+ days. This aligns the financial commitment with the long time window.
-- **Drive Engagement:** Introduce a highly visible "_Personalise Your Stay_" pop-up during the City Hotel booking flow that requires the guest to choose at least one item (e.g., preferred bed size, floor level, early check-in preference). This artificially increases the Special Requests figure and guest psychological commitment.
+- **Drive Engagement:** Introduce a highly visible "_Personalise Your Stay_" pop-up during the City Hotel booking flow that requires the guest to choose at least one item (e.g., preferred bed size, floor level, early check-in preference). This artificially increases the Special Requests figure (engagement) and guest psychological commitment.
   
 2. **Targeted Action: Optimize Resort Hotel Revenue**
    
@@ -102,14 +102,7 @@ This analysis highlights the changes in the cancellation rate expressed in perce
 
 --1. Geographic distribution (Top 10 source countries)
 
-    SELECT 
-        hotel_type,
-        country,
-        SUM(adults + children + babies) AS guest_count
-    FROM hb_staging
-    GROUP BY hotel_type, country
-    ORDER BY hotel_type, guest_count DESC;
-
+ 
 <img width="1515" height="600" alt="image" src="https://github.com/user-attachments/assets/012d3552-a97d-4e9c-b4ef-49ad05f17120" />
 
 <img width="1202" height="917" alt="image" src="https://github.com/user-attachments/assets/db48291a-c256-4823-abad-fe89b8e32c55" />
@@ -119,13 +112,7 @@ This analysis highlights the changes in the cancellation rate expressed in perce
 ##
 --2. Repeat guest distribution
 
-    SELECT 
-        hotel_type,
-        is_repeated_guest,
-        COUNT(adults + children + babies) AS guest_count
-    FROM hb_staging
-    GROUP BY hotel_type, is_repeated_guest
-    ORDER BY hotel_type, is_repeated_guest;
+ 
 
 <img width="1200" height="167" alt="image" src="https://github.com/user-attachments/assets/15fcabe3-1819-4da1-8088-7c4505bd4faf" />
 
