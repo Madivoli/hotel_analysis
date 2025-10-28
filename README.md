@@ -47,7 +47,7 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 ---
 **HOTEL GENERAL MANAGER / STRATEGIC LEADERSHIP**
 
-**Performance Metrics by Hotel Type:**
+**Performance Metrics by Hotel Type**
 
 <img width="1200" height="488" alt="image" src="https://github.com/user-attachments/assets/e07efc53-e2f1-499c-9cf2-e246f287bffc" />
 
@@ -80,9 +80,20 @@ The Resort Hotel's policy should be softer to maintain the slightly better booki
 - **Incentivise Commitment:** For all Resort bookings with a lead time >90$ days, send a "Commitment Offer" at the 60-day mark: "_Confirm your stay is non-refundable now for an extra $10 off, or receive a complimentary spa voucher/resort credit._" This encourages the guest to commit financially for a perk.
 - **Utilise Engagement:** Focus on **upselling** via special requests (e.g., pre-ordering cabana rentals, dinner reservations, or package upgrades) to secure additional ancillary revenue and further cement the bookings.
 
+##
+**YoY Revenue Growth Percentage by Month and Hotel Type**
 
+This analysis examines the rate at which each hotel's actual revenue is growing compared to the same month in the previous year. The City Hotel demonstrates **a volatile growth**, while the Resort Hotel shows more **consistent and stable growth**.
 
+<img width="1202" height="755" alt="image" src="https://github.com/user-attachments/assets/3eeab9a9-1280-4694-bf13-d5a1fbc96193" />
 
+<img width="1200" height="559" alt="image" src="https://github.com/user-attachments/assets/c6116190-bd06-4975-b5c3-eeae28a1ca77" />
+
+**YoY Cancellation Rate Change by Month and Hotel Type**
+
+This analysis highlights the changes in the cancellation rate expressed in percentage points compared to the previous year. A positive value indicates that the cancellation problem is worsening, whereas a negative value suggests improvement. The Resort Hotel exhibits a concerning trend of consistently increasing cancellation rates over the comparative period. For instance, **the cancellation rate increased by 5.99pp and 4.3pp in July and August 2017**, respectively.
+
+<img width="1502" height="692" alt="image" src="https://github.com/user-attachments/assets/493d72f7-34c6-486c-a6b2-b2063974cc37" />
 
 
 
