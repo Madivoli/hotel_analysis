@@ -67,14 +67,14 @@ B. **The Resort Hotel**
 
 The hotels must implement different commitment strategies for each segment to combat the $4.5 million in lost revenue.
 
-1.**Immediate Action: Secure City Hotel Revenue**
+**Immediate Action: Secure City Hotel Revenue**
 
 The City Hotel's priority is to convert non-committed bookings into secure revenue.
 - **Policy Change:** Implement a **Tiered Non-Refundable Deposit Policy** for all City Hotel bookings made more than 60 days out.
 - **Mandatory:** Require a non-refundable deposit equal to 1-2 nights' ADR ($105.35 to $210.70) to confirm any booking with a lead time of 60+ days. This aligns the financial commitment with the long time window.
 - **Drive Engagement:** Introduce a highly visible "_Personalise Your Stay_" pop-up during the City Hotel booking flow that requires the guest to choose at least one item (e.g., preferred bed size, floor level, early check-in preference). This artificially increases the Special Requests figure (engagement) and guest psychological commitment.
   
-2. **Targeted Action: Optimize Resort Hotel Revenue**
+**Targeted Action: Optimize Resort Hotel Revenue**
    
 The Resort Hotel's policy should be softer to maintain the slightly better booking behaviour.
 - **Incentivise Commitment:** For all Resort bookings with a lead time >90$ days, send a "Commitment Offer" at the 60-day mark: "_Confirm your stay is non-refundable now for an extra $10 off, or receive a complimentary spa voucher/resort credit._" This encourages the guest to commit financially for a perk.
@@ -87,11 +87,13 @@ This analysis examines the rate at which each hotel's actual revenue is growing 
 
 <img width="1202" height="755" alt="image" src="https://github.com/user-attachments/assets/3eeab9a9-1280-4694-bf13-d5a1fbc96193" />
 
+The analysis reveals a distinct pattern characterized by pronounced peaks followed by troughs, indicative of **a strong cyclical trend**. This pattern is typical of seasonal businesses where demand peaks during specific months, such as summer and the holiday season, while experiencing declines during other periods. For example, the City Hotel experienced **a revenue peak in  November**, followed by **a dip from December to February**. Conversely, the Resort experienced **a surge in revenue from December to January**, with a subsequent **decline from February to March (notably negative revenue)**. Further investigation is required to **ascertain the underlying cause of the negative revenue observed in March**.
+
 <img width="1200" height="559" alt="image" src="https://github.com/user-attachments/assets/c6116190-bd06-4975-b5c3-eeae28a1ca77" />
 
 **YoY Cancellation Rate Change by Month and Hotel Type**
 
-This analysis highlights the changes in the cancellation rate expressed in percentage points compared to the previous year. A positive value indicates that the cancellation problem is worsening, whereas a negative value suggests improvement. The Resort Hotel exhibits a concerning trend of consistently increasing cancellation rates over the comparative period. For instance, **the cancellation rate increased by 5.99pp and 4.3pp in July and August 2017**, respectively.
+This analysis highlights the changes in the cancellation rate expressed in percentage points compared to the previous year. A positive value indicates that the cancellation problem is worsening, whereas a negative value suggests improvement. The Resort Hotel shows a concerning trend of consistently rising cancellation rates during the comparative period. For example, the **cancellation rate increased by 5.99 percentage points and 4.3 percentage points in July and August 2017**, down from 31.64% and 34.2% in 2026, respectively.
 
 <img width="1502" height="692" alt="image" src="https://github.com/user-attachments/assets/493d72f7-34c6-486c-a6b2-b2063974cc37" />
 
@@ -163,7 +165,7 @@ _Cancellation Rate: 37.04%_
 
 **Recommendations:**
 
-1. **Revenue and Policy Optimisation:**
+**Revenue and Policy Optimisation:**
    
 a)	**Implement Stricter Cancellation Policies:** Introduce or strengthen policies, especially for non-refundable or semi-flexible rates. For instance, **offer a tiered pricing structure**: _Non-Refundable_ (Lowest Price), _Partially-Refundable/Semi-Flexible_ (Mid Price), and _Fully-Flexible_ (Highest Price).
 
@@ -171,7 +173,7 @@ b)	**Deposit and Pre-payment Requirements:** For bookings far out or during peak
 
 c)	**Dynamic Rate Adjustments:** Analyse if cancellations are concentrated around specific channels or lead times. Use data to adjust rates or restrictions to deter low-commitment bookings dynamically.
 
-2. **Lock Down Long-Lead Revenue:**
+**Lock Down Long-Lead Revenue:**
    
 The hotels must implement **Lead-Time-Based Cancellation Policies** to secure the $4.5 million in lost revenue due to cancellations.
 
