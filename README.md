@@ -12,6 +12,7 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 
 
 ##
+
 **Stakeholders and Business Questions**
 
 **Hotel General Manager / Strategic Leadership**
@@ -44,6 +45,7 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 
 - **Data Visualization:** Finally, the cleaned and summarized data will be visualized utilizing Matplotlib, Tableau and Excel to enhance understanding and facilitate informed decision-making.
 
+---
 ---
 **HOTEL GENERAL MANAGER / STRATEGIC LEADERSHIP**
 
@@ -80,7 +82,7 @@ The Resort Hotel's policy should be softer to maintain the slightly better booki
 - **Incentivise Commitment:** For all Resort bookings with a lead time >90$ days, send a "Commitment Offer" at the 60-day mark: "_Confirm your stay is non-refundable now for an extra $10 off, or receive a complimentary spa voucher/resort credit._" This encourages the guest to commit financially for a perk.
 - **Utilise Engagement:** Focus on **upselling** via special requests (e.g., pre-ordering cabana rentals, dinner reservations, or package upgrades) to secure additional ancillary revenue and further cement the bookings.
 
-##
+---
 **YoY Revenue Growth Percentage by Month and Hotel Type**
 
 This analysis examines the rate at which each hotel's actual revenue is growing compared to the same month in the previous year. The City Hotel demonstrates **a volatile growth**, while the Resort Hotel shows more **consistent and stable growth**.
@@ -91,6 +93,7 @@ The analysis reveals a distinct pattern characterized by pronounced peaks follow
 
 <img width="1200" height="559" alt="image" src="https://github.com/user-attachments/assets/c6116190-bd06-4975-b5c3-eeae28a1ca77" />
 
+---
 **YoY Cancellation Rate Change by Month and Hotel Type**
 
 This analysis highlights the changes in the cancellation rate expressed in percentage points compared to the previous year. A positive value indicates that the cancellation problem is worsening, whereas a negative value suggests improvement. The Resort Hotel shows a concerning trend of consistently rising cancellation rates during the comparative period. For example, the **cancellation rate increased by 5.99 percentage points and 4.3 percentage points in July and August 2017**, down from 31.64% and 34.2% in 2026, respectively.
@@ -98,8 +101,7 @@ This analysis highlights the changes in the cancellation rate expressed in perce
 <img width="1502" height="692" alt="image" src="https://github.com/user-attachments/assets/493d72f7-34c6-486c-a6b2-b2063974cc37" />
 
 
-
-##
+---
 **--Guest demographics between the City Hotel and the Resort Hotel**
 
 --1. Geographic distribution (Top 10 source countries)
@@ -111,14 +113,14 @@ This analysis highlights the changes in the cancellation rate expressed in perce
 
 
 
-##
+---
 --2. Repeat guest distribution
 
  
 
 <img width="1200" height="167" alt="image" src="https://github.com/user-attachments/assets/15fcabe3-1819-4da1-8088-7c4505bd4faf" />
 
-##
+---
 **Cancellation Rate**
     
     total_bookings = len(hb)
