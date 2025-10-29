@@ -17,8 +17,10 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 
 **Hotel General Manager / Strategic Leadership**
 
-- What are the key differences in performance and guest demographics between the City Hotel and the Resort Hotel?
-- What is the overall cancellation rate, and can we identify any patterns (e.g., by deposit type, lead time, or repeat guest status) that predict cancellations?
+- 
+- What is the year-over-year growth in bookings and revenue, and how does the cancellation rate trend compare between the city hotel and the resort hotel?
+
+- Using clustering, can we identify distinct customer profiles (e.g., "last-minute business travelers," "long-stay families") to inform targeted service packages and investments?
 
 **Revenue Management & Pricing Team**
 
@@ -48,6 +50,8 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 ---
 ---
 **HOTEL GENERAL MANAGER / STRATEGIC LEADERSHIP**
+
+This section explores the **year-over-year (YoY) growth** in both bookings and revenue for the two types of hotels. It also examines the **performance metrics** and **trends in cancellation rates**, comparing city hotels and resort hotels. Finally, by utilizing cluster analysis, we aim to **identify distinct customer profiles** — such as "last-minute business travelers" and "long-stay families" — to guide our development of targeted service packages and investments.
 
 **Performance Metrics by Hotel Type**
 
