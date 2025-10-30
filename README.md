@@ -123,7 +123,20 @@ The goal is to **protect healthy revenue growth** by increasing customer commitm
 
 2. **Targeted Channel Review:** Leadership should promptly review the Resort Hotel's booking channels during months with the highest increases in cancellation rates (for instance, July’s +5.99 percentage points). If a specific third-party travel agent or OTA is contributing to low-commitment bookings, **stricter cancellation terms should be negotiated**, or their **inventory allotment should be reduced**.
 
+---
+**Cluster Analysis**
 
+The primary objective is to **identify distinct customer segments** within the data to facilitate **personalized marketing**, **targeted service offerings**, and **strategic resource allocation**. Customers were segmented into four clusters, as outlined below.
+
+<img width="1200" height="389" alt="image" src="https://github.com/user-attachments/assets/94423ae4-fc18-41e2-9834-7e0d20411158" />
+
+
+The analysis highlights a **significant business risk**: 64.8% of customers fall into the category of **"High-Risk Advance Planners,"** who exhibit considerable cancellation rate (40%). This situation requires immediate attention and action.
+
+
+<img width="1200" height="663" alt="image" src="https://github.com/user-attachments/assets/ff2ce7f7-a56c-43cb-b662-da238fb099f8" />
+
+<img width="1200" height="588" alt="image" src="https://github.com/user-attachments/assets/1f091a3e-0dc3-4174-b09c-c778c6f045b0" />
 
 
 
