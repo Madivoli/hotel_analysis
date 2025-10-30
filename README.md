@@ -126,7 +126,7 @@ The goal is to **protect healthy revenue growth** by increasing customer commitm
 ---
 **Cluster Analysis**
 
-The primary objective is to **identify distinct customer segments** within the data to facilitate **personalized marketing**, **targeted service offerings**, and **strategic resource allocation**. Customers were segmented into four clusters, as outlined below.
+The primary objective is to **identify distinct customer segments** within the data to facilitate **personalized marketing**, **targeted service offerings**, and **strategic resource allocation**. Customers were segmented into five clusters, as outlined below.
 
 <img width="1200" height="389" alt="image" src="https://github.com/user-attachments/assets/94423ae4-fc18-41e2-9834-7e0d20411158" />
 
