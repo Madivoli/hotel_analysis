@@ -200,8 +200,91 @@ The analysis highlights a **significant business risk**: 64.8% of customers fall
 ---
 **REVENUE MANAGEMENT & PRICING TEAM**
 
+The objective is to determine the **average daily rate (ADR)**, **revenue per available room (RevPAR)**, **total bookings**, as well as the metrics for **cancelled and non-cancelled bookings**, **cancellation rate**, **total revenue** (including both actual revenue and revenue lost due to cancellations), **average lead time**, and the **average number of special requests received**. These key metrics will be categorized by month and by hotel type to identify any performance variations between city hotels and resort hotels. Ultimately, significant insights will be highlighted, accompanied by relevant recommendations.
+
+**Key Performance Metrics and Insights**
+<img width="1200" height="1488" alt="image" src="https://github.com/user-attachments/assets/50f72504-b1bc-41b4-9309-316e8d8b30d5" />
+
+
+**RECOMMENDATIONS**
+
+**Revenue and Policy Optimisation:**
+   
+a)	**Implement Stricter Cancellation Policies:** 
+- **Introduce or strengthen policies**, especially for non-refundable or semi-flexible rates.
+- For instance, **offer a tiered pricing structure**: _Non-Refundable_ (Lowest Price), _Partially-Refundable/Semi-Flexible_ (Mid Price), and _Fully-Flexible_ (Highest Price).
+
+b)	**Deposit and Pre-payment Requirements:** 
+- For bookings far out or during peak demand periods, **require a non-refundable deposit** (e.g., 1 night's stay) or **full pre-payment** to secure the reservation, shifting the risk to the guest.
+
+c)	**Dynamic Rate Adjustments:** 
+- Analyse if cancellations are concentrated around specific channels or lead times.
+- Use data to adjust rates or restrictions to deter low-commitment bookings dynamically.
+
+**Lock Down Long-Lead Revenue:**
+   
+The hotels must implement **Lead-Time-Based Cancellation Policies** to secure the $4.5 million in lost revenue due to cancellations.
+
+a)	**Introduce a Stricter, Time-Sensitive Deposit Policy:**
+- **Bookings > 90 Days Out (The 104-Day Problem)**: Mandate a non-refundable deposit equal to at least one night's stay to secure the reservation.
+- This immediately converts placeholder bookings into revenue-secured commitments.
+- **Bookings < 30 Days Out:** Maintain the current policy (or a slightly tightened 48-hour free cancellation), as these guests are typically more committed.
+  
+b)	**Refine the Non-Refundable Rate:** 
+- Ensure the non-refundable rate is the lowest published price and is heavily promoted for bookings made >60 days out.
+
+c)	**Implement a "Rate Lock" Option:** 
+- Allow a guest to pay a small, non-refundable fee (e.g., $10-$20) to hold a flexible rate for 48 hours, mimicking the successful tactics used by airlines, to reduce unnecessary free inventory blocks.
+
+---
+**Average Daily Rate, Total Revenue and Revenue per Available Room by Hotel Type**
+
+<img width="1202" height="617" alt="image" src="https://github.com/user-attachments/assets/972074ff-e07f-43e6-8ba2-48951a75d8b4" />
+
+**KEY INSIGHTS**
+
+**City Hotel Performance:**
+- Higher ADR ($100.69 vs $92.45): 8.9% premium pricing power.
+- Significantly higher total revenue ($25.27M vs $17.44M): 44.8% more revenue.
+- Massive RevPAR advantage ($3,158 vs $2,199): 69.6% higher revenue efficiency.
+
+**Resort Hotel Performance:**
+- Lower ADR: Potential underpricing or different market positioning.
+- Lower Total Revenue: Despite possibly similar room counts.
+- Significantly Lower RevPAR: Major revenue optimisation opportunity.
+
+**IMPLICATIONS AND OPPORTUNITIES**
+- City Hotel has a stronger market position and pricing power.
+- Resort Hotel has significant room for rate optimisation.
+
+**RECOMMENDATIONS**
+
+**For Resort:**
+- Increase ADR by 10-15% through value-added packages.
+- Introduce premium pricing for high-demand periods.
+- Review competitor pricing in the resort category.
+
+**For City Hotel: **
+- Develop tiered pricing for different room categories.
+- Optimize distribution channel mix for net revenue.
+
+---
+ADR TRENDS OVER TIME SEGMENTED BY HOTEL TYPE
+<img width="1202" height="617" alt="image" src="https://github.com/user-attachments/assets/d1cc329a-c7fd-4e23-ab12-8bdd2b35116a" />
+
+
+
+---
+REVPAR TRENDS OVER TIME SEGMENTED BY HOTEL TYPE
+
+
 - What is the average daily rate (ADR) and revenue per available room (RevPAR) by month and hotel type?
 - Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
+
+
+
+
+
 
 
 
@@ -247,88 +330,10 @@ _Cancellation Rate: 37.04%_
 ---
 
 
-**PERFORMANCE METRICS** 
-<img width="1200" height="1488" alt="image" src="https://github.com/user-attachments/assets/50f72504-b1bc-41b4-9309-316e8d8b30d5" />
 
 
-**Recommendations:**
-
-**Revenue and Policy Optimisation:**
-   
-a)	**Implement Stricter Cancellation Policies:** Introduce or strengthen policies, especially for non-refundable or semi-flexible rates. For instance, **offer a tiered pricing structure**: _Non-Refundable_ (Lowest Price), _Partially-Refundable/Semi-Flexible_ (Mid Price), and _Fully-Flexible_ (Highest Price).
-
-b)	**Deposit and Pre-payment Requirements:** For bookings far out or during peak demand periods, **require a non-refundable deposit** (e.g., 1 night's stay) or **full pre-payment** to secure the reservation, shifting the risk to the guest.
-
-c)	**Dynamic Rate Adjustments:** Analyse if cancellations are concentrated around specific channels or lead times. Use data to adjust rates or restrictions to deter low-commitment bookings dynamically.
-
-**Lock Down Long-Lead Revenue:**
-   
-The hotels must implement **Lead-Time-Based Cancellation Policies** to secure the $4.5 million in lost revenue due to cancellations.
-
-a)	**Introduce a Stricter, Time-Sensitive Deposit Policy:**
-- **Bookings > 90 Days Out (The 104-Day Problem)**: Mandate a non-refundable deposit equal to at least one night's stay to secure the reservation. This immediately converts placeholder bookings into revenue-secured commitments.
-- **Bookings < 30 Days Out:** Maintain the current policy (or a slightly tightened 48-hour free cancellation), as these guests are typically more committed.
-  
-b)	**Refine the Non-Refundable Rate:** Ensure the non-refundable rate is the lowest published price and is heavily promoted for bookings made >60 days out.
-
-c)	**Implement a "Rate Lock" Option:** Allow a guest to pay a small, non-refundable fee (e.g., $10-$20) to hold a flexible rate for 48 hours, mimicking the successful tactics used by airlines, to reduce unnecessary free inventory blocks.
 
 
---**Calculating the **average daily rate** (**ADR**), **total revenue** (**TR**) and **revenue per available room** (**RevPAR**)**
-
-    WITH hotel_capacity AS (
-        SELECT 
-          hotel,
-          COUNT(DISTINCT assigned_room_type) AS total_rooms
-        FROM hb_staging 
-        GROUP BY hotel
-    ),
-    daily_revenue AS (
-        SELECT 
-          hotel,
-          arrival_date,
-          ROUND(AVG(adr), 2) AS average_daily_rate,
-          ROUND(SUM(adr * (stays_in_weekend_nights + stays_in_week_nights)), 2) AS total_revenue
-        FROM hb_staging
-        GROUP BY hotel, arrival_date
-    )
-    SELECT 
-      dr.hotel,
-      dr.arrival_date,
-      dr.average_daily_rate,
-      dr.total_revenue,
-      dr.total_revenue / hc.total_rooms AS revenue_per_available_room
-    FROM daily_revenue AS dr
-    JOIN hotel_capacity AS hc ON dr.hotel = hc.hotel;
-
-<img width="1202" height="719" alt="image" src="https://github.com/user-attachments/assets/57e7cb89-f1ed-4183-9891-61a4df942a9d" />
-
-📊 **Key Findings**
-
--- City Hotel Performance:
-- Higher ADR ($100.69 vs $92.45): 8.9% premium pricing power.
-- Significantly higher total revenue ($25.27M vs $17.44M): 44.8% more revenue.
-- Massive RevPAR advantage ($3.16M vs $1.74M): 81.2% higher revenue efficiency.
-
--- Resort Hotel Performance:
-- Lower ADR: Potential underpricing or different market positioning.
-- Lower Total Revenue: Despite possibly similar room counts.
-- Significantly Lower RevPAR: Major revenue optimisation opportunity.
-
-🎯 **Implications and opportunities**
-- City Hotel has a stronger market position and pricing power.
-- Resort Hotel has significant room for rate optimisation.
-
-🚀 **Recommendations**
-
--- For Resort:
-- Increase ADR by 10-15% through value-added packages.
-- Introduce premium pricing for high-demand periods.
-- Review competitor pricing in the resort category.
-
--- For City Hotel: 
-- Develop tiered pricing for different room categories.
-- Optimize distribution channel mix for net revenue.
 
 ##
 
