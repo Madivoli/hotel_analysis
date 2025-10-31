@@ -17,7 +17,6 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 
 **Hotel General Manager / Strategic Leadership**
 
-- 
 - What is the year-over-year growth in bookings and revenue, and how does the cancellation rate trend compare between the city hotel and the resort hotel?
 
 - Using clustering, can we identify distinct customer profiles (e.g., "last-minute business travelers," "long-stay families") to inform targeted service packages and investments?
@@ -51,13 +50,13 @@ The dataset includes 119,334 booking records from both a city hotel and a resort
 ---
 **HOTEL GENERAL MANAGER / STRATEGIC LEADERSHIP**
 
-This section explores the **year-over-year (YoY) growth** in both bookings and revenue for the two types of hotels. It also examines the **performance metrics** and **trends in cancellation rates**, comparing city hotels and resort hotels. Finally, by utilizing cluster analysis, we aim to **identify distinct customer profiles** — such as "last-minute business travelers" and "long-stay families" — to guide our development of targeted service packages and investments.
+This section explores the **year-over-year (YoY) growth** in both bookings and revenue for the two types of hotels. It also examines the **performance metrics** and **trends in cancellation rates**, comparing city hotels and resort hotels. Finally, by utilizing cluster analysis, it aims to **identify distinct customer profiles** — such as "leisure travellers" and "family vacationers" — to guide our development of targeted service packages and investments.
 
 **Performance Metrics by Hotel Type**
 
 <img width="1200" height="488" alt="image" src="https://github.com/user-attachments/assets/e07efc53-e2f1-499c-9cf2-e246f287bffc" />
 
-**Segment-Specific Insights:**
+**SEGMENT-SPECIFIC INSIGHTS**
 
 A. **The City Hotel (The Core Problem)**
 
@@ -69,7 +68,7 @@ B. **The Resort Hotel**
 - **Better Commitment:** The Resort Hotel has a lower, though still high, cancellation rate (27.76%), shorter lead time (92.68 days), and slightly higher engagement (0.62 special requests).
 - **Guest Profile:** This profile is typical of leisure travellers who plan a bit closer to the date and are slightly more invested in their booking (higher special requests). The long lead time remains a risk factor, but their higher engagement suggests a need for less drastic policy measures than those implemented by the City Hotel.
 
-**Recommendations:**
+**RECOMMENDATIONS**
 
 The hotels must implement different commitment strategies for each segment to combat the $4.5 million in lost revenue.
 
@@ -104,7 +103,7 @@ This analysis highlights the changes in the cancellation rate expressed in perce
 
 <img width="1502" height="692" alt="image" src="https://github.com/user-attachments/assets/493d72f7-34c6-486c-a6b2-b2063974cc37" />
 
-**Recommendations**
+**RECOMMENDATIONS**
 
 The company should implement **segmented revenue strategies** that address the distinct growth and cancellation dynamics of the two types of hotels.
 
@@ -139,15 +138,73 @@ The analysis highlights a **significant business risk**: 64.8% of customers fall
 <img width="1200" height="588" alt="image" src="https://github.com/user-attachments/assets/1f091a3e-0dc3-4174-b09c-c778c6f045b0" />
 
 
+**RECOMMENDATIONS**
 
+**A. Cluster 1 (High-Risk - 64%):**
 
+**Implement Tiered Deposit System:**
+- 30% deposit for bookings >90 days advance
+- 50% deposit for bookings >180 days advance
+- Full prepayment for peak season >120 days advance
+  
+**Create Non-Refundable Rate Options:**
+- 15-20% discount for non-refundable bookings
+- Clear communication of cancellation penalties
+
+**B. Cluster 0, 2, 4 (Standard Leisure - 34.4%):**
+
+**Further segmentation needed (segment optimisation)**
+- Analyze differences between these clusters
+- Develop targeted approaches for each sub-segment
+- Focus on converting to lower-risk booking patterns
+
+**C. Cluster 3 (Family Vacationers - 0.8%):**
+
+**Growth Strategy (Aggressive Expansion):**
+
+**Family Package Development:**
+- "Kids Stay Free" promotions
+- Family suite packages with activity bundles
+- Multi-generational travel offers
+
+**Targeted Marketing:**
+- Family travel websites and influencers
+- School vacation period campaigns
+- Family-focused social media content
+
+**Service Enhancements:**
+- Childcare services
+- Family activity coordinators
+- Child-friendly dining options
+
+**D. Business Model Restructuring:**
+
+**Revenue Mix Rebalancing:**
+
+- **Target:** Reduce Cluster 1 to 40%, grow Cluster 3 to 15%
+- **Timeline:** 12-month transformation
+  
+**Pricing Strategy Overhaul:**
+
+- Dynamic pricing based on cancellation risk
+- Advance purchase discounts with restrictions
+- Last-minute booking incentives
+  
+**Channel Optimisation:**
+
+- Reduce dependency on high-cancellation channels
+- Develop direct booking incentives
+- Partner with family-focused travel agencies
 
 ---
---2. Repeat guest distribution
+---
+**REVENUE MANAGEMENT & PRICING TEAM**
 
- 
+- What is the average daily rate (ADR) and revenue per available room (RevPAR) by month and hotel type?
+- Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
 
-<img width="1200" height="167" alt="image" src="https://github.com/user-attachments/assets/15fcabe3-1819-4da1-8088-7c4505bd4faf" />
+
+
 
 ---
 **Cancellation Rate**
@@ -188,7 +245,7 @@ _Cancellation Rate: 37.04%_
   <img width="1500" height="119" alt="image" src="https://github.com/user-attachments/assets/adecf53d-76d1-4285-a6ec-e8183bfb2cae" />
 
 ---
-**REVENUE MANAGEMENT & PRICING TEAM**
+
 
 **PERFORMANCE METRICS** 
 <img width="1200" height="1488" alt="image" src="https://github.com/user-attachments/assets/50f72504-b1bc-41b4-9309-316e8d8b30d5" />
@@ -368,6 +425,12 @@ c)	**Implement a "Rate Lock" Option:** Allow a guest to pay a small, non-refunda
 <img width="1515" height="357" alt="image" src="https://github.com/user-attachments/assets/3f4d782b-675d-49b1-876b-1fe87176a8a0" />
 
 
+
+--2. Repeat guest distribution
+
+ 
+
+<img width="1200" height="167" alt="image" src="https://github.com/user-attachments/assets/15fcabe3-1819-4da1-8088-7c4505bd4faf" />
 ---
 **Marketing Team**
 
