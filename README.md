@@ -277,8 +277,10 @@ ADR TRENDS OVER TIME SEGMENTED BY HOTEL TYPE
 ---
 REVPAR TRENDS OVER TIME SEGMENTED BY HOTEL TYPE
 
+<img width="1202" height="587" alt="image" src="https://github.com/user-attachments/assets/3e1c7f09-d563-46ca-a4e3-4e1084147d76" />
 
-- What is the average daily rate (ADR) and revenue per available room (RevPAR) by month and hotel type?
+
+---
 - Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
 
 
