@@ -68,7 +68,7 @@ B. **The Resort Hotel**
 - **Better Commitment:** The Resort Hotel has a lower, though still high, cancellation rate (27.76%), shorter lead time (92.68 days), and slightly higher engagement (0.62 special requests).
 - **Guest Profile:** This profile is typical of leisure travellers who plan a bit closer to the date and are slightly more invested in their booking (higher special requests). The long lead time remains a risk factor, but their higher engagement suggests a need for less drastic policy measures than those implemented by the City Hotel.
 
-**RECOMMENDATIONS**
+**Recommendations**
 
 The hotels must implement different commitment strategies for each segment to combat the $4.5 million in lost revenue.
 
@@ -103,7 +103,7 @@ This analysis highlights the changes in the cancellation rate expressed in perce
 
 <img width="1502" height="692" alt="image" src="https://github.com/user-attachments/assets/493d72f7-34c6-486c-a6b2-b2063974cc37" />
 
-**RECOMMENDATIONS**
+**Recommendations**
 
 The company should implement **segmented revenue strategies** that address the distinct growth and cancellation dynamics of the two types of hotels.
 
@@ -138,7 +138,7 @@ The analysis highlights a **significant business risk**: 64.8% of customers fall
 <img width="1200" height="588" alt="image" src="https://github.com/user-attachments/assets/1f091a3e-0dc3-4174-b09c-c778c6f045b0" />
 
 
-**RECOMMENDATIONS**
+**Recommendations**
 
 **A. Cluster 1 (High-Risk - 64%):**
 
@@ -206,7 +206,7 @@ The objective is to determine the **average daily rate (ADR)**, **revenue per av
 <img width="1200" height="1488" alt="image" src="https://github.com/user-attachments/assets/50f72504-b1bc-41b4-9309-316e8d8b30d5" />
 
 
-**RECOMMENDATIONS**
+**Recommendations**
 
 **Revenue and Policy Optimisation:**
    
@@ -257,25 +257,44 @@ c)	**Implement a "Rate Lock" Option:**
 - City Hotel has a stronger market position and pricing power.
 - Resort Hotel has significant room for rate optimisation.
 
-**RECOMMENDATIONS**
+**Recommendations**
 
 **For Resort:**
 - Increase ADR by 10-15% through value-added packages.
 - Introduce premium pricing for high-demand periods.
 - Review competitor pricing in the resort category.
 
-**For City Hotel: **
+**For City Hotel:**
 - Develop tiered pricing for different room categories.
 - Optimize distribution channel mix for net revenue.
 
 ---
-ADR TRENDS OVER TIME SEGMENTED BY HOTEL TYPE
+**ADR Trends Over Time Segmented by Hotel Type**
+
+The line graph shows the Average Daily Rate (ADR) trend by hotel type, revealing critical differences in pricing strategy, market resilience, and seasonal dependence between the City Hotel and the Resort Hotel.
 <img width="1202" height="617" alt="image" src="https://github.com/user-attachments/assets/d1cc329a-c7fd-4e23-ab12-8bdd2b35116a" />
 
+**Interpretation by Hotel Type**
+
+**Resort Hotel ADR Trend**  
+The Average Daily Rate (ADR) for Resort Hotels displays **a highly volatile and aggressive pricing strategy**.  
+- **Peak Season Pricing Power:** The ADR **surges significantly during the summer months** (June to August), often exceeding the **$180** mark. This indicates strong demand in the summer, enabling substantial price increases.  
+- **Deep Low Season Discounts:** Conversely, the ADR **drops sharply during the low season** (late fall and winter, from September to February), falling to around **$53**. This suggests that Resort Hotel **relies on aggressive discounting to maintain occupancy during off-peak periods**, likely aimed at attracting local and regional customers.  
+- **Overall Average:** The average ADR for Resort Hotels is $92.45, with **frequent fluctuations that result in prices dipping below this average**.
+
+**City Hotel ADR Trend**  
+The ADR for City Hotels, on the other hand, showcases **a less volatile and more stable pricing strategy**.  
+- **Higher Overall Price Point:** The average ADR for City Hotels is higher at $100.69, generally remaining above that of Resort Hotels throughout the year.  
+- **Extended Peak Season:** While summer (June) remains the peak period, the City Hotel's pricing **maintains higher levels for a longer duration**, suggesting an **extended shoulder season** and **a stronger demand for short-term business or transit stays**.  
+- **Price Floor Resilience:** Importantly, the City Hotel does not resort to the extreme **low-season discounting** typical of the Resort Hotel. Instead, it maintains a higher price floor (above $80), indicating less pressure to reduce room rates in the low season dramatically.
+
+**Recommendations**
+
+The pricing trends must be closely **linked to the cancellation crisis**, which has resulted in a loss of $4.5 million in revenue, and the issues within the City Hotel’s **Transient segment**, which has a 40.75% cancellation rate. 
 
 
 ---
-REVPAR TRENDS OVER TIME SEGMENTED BY HOTEL TYPE
+**REVPAR Trends Over Time Segmented by Hotel Type**
 
 <img width="1202" height="587" alt="image" src="https://github.com/user-attachments/assets/3e1c7f09-d563-46ca-a4e3-4e1084147d76" />
 
