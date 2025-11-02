@@ -307,6 +307,11 @@ City Hotel's price stability provides a stronger foundation for managing cancell
 - **Issue:** The hotel **heavily relies on Offline Travel Agents/Tour Operators (TA/TO)**, which means that **cancellations are often influenced by external contract terms** rather than dynamic pricing alone.
 - **Solution:** Utilize the stable ADR to **implement non-refundable prepayments for all long-lead bookings** made through tour operators. Since the prices do not decrease significantly during the low season, guests have reduced incentives to cancel and rebook. Leverage the consistent ADR to **negotiate stricter cancellation terms in all new contracts**, focusing on the hotel’s top markets.
 
+**ADR-Cancellation Correlation Analysis**
+
+The hotels must **analyze the correlation between booking rates at high ADR and cancellation rates compared to those at low ADR**:
+- If the data shows that **higher ADR correlates with lower cancellation rates, promote non-refundable rates aggressively** during the initial long-lead booking window, even for high-ADR bookings. This strategy will help lock in higher prices.
+- If the data indicates that **ADR does not affect cancellation rates, then the issue may stem from lead time and flexibility**. In this case, an immediate shift to **mandatory deposit policies should be implemented** regardless of price.
 
 
 
