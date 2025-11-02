@@ -292,6 +292,23 @@ The ADR for City Hotels, on the other hand, showcases **a less volatile and more
 
 The pricing trends must be closely **linked to the cancellation crisis**, which has resulted in a loss of $4.5 million in revenue, and the issues within the City Hotel’s **Transient segment**, which has a 40.75% cancellation rate. 
 
+**Resort Hotel: Pricing Strategy vs. Cancellation Risk**
+
+The Resort Hotel's unstable pricing is directly related to its **cancellation challenges**:
+
+- **Issue:** During the low-demand months (November to February), the hotel tends to **attract less profitable, low-commitment bookings at a lower ADR**. These low-ADR reservations are easily canceled when guests find better deals elsewhere, often characterized by the **"Book Now, Decide Later"** mentality.
+- **Solution:** Increase the price floor during the low season (November to February). Rather than resorting to aggressive discounts on ADR, consider **bundling services** (such as offering free parking or a meal credit) that add perceived value and require a non-refundable deposit to secure. This approach allows the hotel to **use price resilience to filter out high-risk cancellations**.
+
+
+**City Hotel: Capitalizing on Price Stability**
+
+City Hotel's price stability provides a stronger foundation for managing cancellations:
+
+- **Issue:** The hotel **heavily relies on Offline Travel Agents/Tour Operators (TA/TO)**, which means that **cancellations are often influenced by external contract terms** rather than dynamic pricing alone.
+- **Solution:** Utilize the stable ADR to **implement non-refundable prepayments for all long-lead bookings** made through tour operators. Since the prices do not decrease significantly during the low season, guests have reduced incentives to cancel and rebook. Leverage the consistent ADR to **negotiate stricter cancellation terms in all new contracts**, focusing on the hotel’s top markets.
+
+
+
 
 ---
 **REVPAR Trends Over Time Segmented by Hotel Type**
