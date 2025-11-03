@@ -314,15 +314,46 @@ The hotels must **analyze the correlation between booking rates at high ADR and 
 - If the data indicates that **ADR does not affect cancellation rates, then the issue may stem from lead time and flexibility**. In this case, an immediate shift to **mandatory deposit policies should be implemented** regardless of price.
 
 
-
 ---
 **REVPAR Trends Over Time Segmented by Hotel Type**
 
+The analysis of the **Revenue Per Available Room** (**RevPAR**) trend over time, segmented by hotel type, indicates that the City **Hotel serves as the primary driver of potential revenue**; however, **its volatility presents a significant financial risk**.
+
 <img width="1202" height="587" alt="image" src="https://github.com/user-attachments/assets/3e1c7f09-d563-46ca-a4e3-4e1084147d76" />
 
+**RevPAR Trends Over Time**
+
+**City Hotel**  
+
+The RevPAR trend for the City Hotel is marked by **sharp peaks** (in June and September) and **deep troughs** (in July and November), highlighting **its extreme dependence on seasonal demand**.
+
+- **Dominant Performance:** The City Hotel consistently **generates a higher RevPAR** than the Resort Hotel throughout most of the year, solidifying its status as **the most profitable segment in terms of revenue per room**.
+- **Peak Season:** The RevPAR experiences **significant spikes during the summer months**, reaching levels well above those of the Resort Hotel.
+- **Volatile Trough:** The RevPAR sees **a steep decline during low-demand months**, dropping close to or sometimes below the RevPAR of the Resort Hotel. This **volatility is concerning due to a high cancellation rate of 41.73% for bookings made well in advance of these low-demand months**, leading to substantial potential losses that are challenging to offset.
+
+**Resort Hotel**  
+
+The RevPAR trend for the Resort Hotel is **more stable and follows a predictable leisure cycle**.
+
+- **Consistent Lower Value:** The Resort Hotel **consistently maintains a lower RevPAR** compared to the City Hotel.
+- **Muted Volatility:** Although the Resort Hotel follows a similar cyclical pattern, **the difference between its peak and trough is less extreme** than that of the City Hotel. This stability might be **attributed to its more measured Average Daily Rate (ADR) strategy and its reliance on package bookings from tour operators**.
+
+
+**Recommendation: Connecting RevPAR to Cancellations**
+
+The analysis of RevPAR (Revenue Per Available Room) highlights the need for the City Hotel to implement strict policies due to its significant potential revenue currently being lost to cancellations.
+
+- **Risk-Adjusted RevPAR (RAR):** Hotels should calculate **Risk-Adjusted RevPAR** by multiplying RevPAR by the Realization Rate (1 - Cancellation Rate).
+- **City Hotel RAR:** This metric needs close monitoring. With a cancellation rate of 41.73% (resulting in a realization rate of 58.27%), **the City Hotel is realizing just over half of its potential RevPAR**. This means that for every 100 rooms booked at the City Hotel, only about 58 are expected to generate revenue. The remaining 42 rooms inflate the forecast, creating considerable operational and financial uncertainty.
+
+- **Resort Hotel RAR:** The Resort Hotel, with a 27.76% cancellation rate (therefore a 72.24% realization rate), is closer to achieving its potential RevPAR. Its lower volume is thus more reliable.
+**Targeting Peaks for Protection:** The months with the highest RevPAR at the City Hotel are where **strict enforcement of non-refundable policies** for the Transient segment is most crucial. **Securing these peak-price bookings helps prevent significant financial losses**.
+- **Cross-Segment Pricing Opportunity:** During low-demand months when the City Hotel's RevPAR approaches that of the Resort Hotel, it should **consider raising its price floor** and **prioritize attracting higher-value**, **lower-risk Contract** or **managed Group business** instead of offering discounts to the volatile Transient segment. 
+
+These trends underscore the necessity for **non-negotiable policies focused on the high-RevPAR**, **high-volatility City Hotel** and **its primary booking sources**, including Online Travel Agencies (OTAs) and Transient customers.
 
 ---
-- Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
+
 
 
 
