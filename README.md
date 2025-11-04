@@ -353,9 +353,12 @@ The analysis of RevPAR (Revenue Per Available Room) highlights the need for the 
 These trends underscore the necessity for **non-negotiable policies focused on the high-RevPAR**, **high-volatility City Hotel** and **its primary booking sources**, including Online Travel Agencies (OTAs) and Transient customers.
 
 ---
-Question 2: Which market segments and distribution channels bring in the highest-value customers (based on ADR and length of stay)?
+**Customer Value Analysis (CVA)** 
+
+**By country**
 
 
+<img width="1200" height="442" alt="image" src="https://github.com/user-attachments/assets/b133eddf-4a89-498c-bae6-6afa70988be7" />
 
 
 
