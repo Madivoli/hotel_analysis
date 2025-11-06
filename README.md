@@ -366,9 +366,22 @@ The findings reveal that **the most valuable guests typically come from smaller*
 <img width="1187" height="1508" alt="image" src="https://github.com/user-attachments/assets/2bef08aa-b236-40ff-b5af-fadc9c56b340" />
 
 
+---
+**By market segment**
 
 
 
+<img width="1200" height="312" alt="image" src="https://github.com/user-attachments/assets/36f2bb90-1d3b-4ceb-ac85-ea58b2d9f03e" />
 
 
 
+---
+**By distribution channels**
+
+<img width="1200" height="234" alt="image" src="https://github.com/user-attachments/assets/8320dd9a-d50c-4fe2-9672-406d5ab9670e" />
+
+
+
+---
+---
+**Marketing Team**
