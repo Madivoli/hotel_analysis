@@ -355,10 +355,15 @@ These trends underscore the necessity for **non-negotiable policies focused on t
 ---
 **Customer Value Analysis (CVA)** 
 
+This analysis aims to identify the countries, market segments, and distribution channels that yield **the highest-value customers** based on **Average Daily Rate** (ADR) and **Average Length of Stay** (ALOS).
+
 **By country**
 
+The findings reveal that **the most valuable guests typically come from smaller**, **niche international markets rather than the largest source countries**. For example, the UK ranks as the top source country for guests, with a total of $24,568 in bookings compared to France's $21,579. However, France has more valuable guests when measuring Revenue per Guest (RPG), with an average of $64,503.41 compared to the UK's $55,569.76.
 
 <img width="1200" height="442" alt="image" src="https://github.com/user-attachments/assets/b133eddf-4a89-498c-bae6-6afa70988be7" />
+
+<img width="1187" height="1508" alt="image" src="https://github.com/user-attachments/assets/2bef08aa-b236-40ff-b5af-fadc9c56b340" />
 
 
 
