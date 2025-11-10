@@ -369,7 +369,7 @@ The findings reveal that **the most valuable guests typically come from smaller*
 ---
 **By market segment**
 
-This comprehensive analysis of the most valuable market segments synthesizes key performance metrics: Average Daily Rate (ADR), Average Length of Stay (ALOS), Revenue per Available Room (RevPAR), and Total Revenue. From the analysis, **Online Travel Agents (OTAs) represent the most significant and valuable market segment**, with over 1,000 guests, 1,761 nights booked, an ADR of $61,123, a RevPAR of $244,778, and total revenue of $23,270,565 during the analyzed period. This segment is undoubtedly **the primary driver of the hotel’s revenue**. In contrast, **the segment with the least value is Aviation**, which recorded only 17 guests, an ALOS of 87 nights, an ADR of $1,717, a RevPAR of $9,563, and total revenue of $79,520.
+This analysis of the most valuable market segments synthesizes key performance metrics: Average Daily Rate (ADR), Average Length of Stay (ALOS), Revenue per Available Room (RevPAR), and Total Revenue. From the analysis, **Online Travel Agents (OTAs) represent the most significant and valuable market segment**, with over 1,000 guests, 1,761 nights booked, an ADR of $61,123, a RevPAR of $244,778, and total revenue of $23,270,565 during the analyzed period. This segment is undoubtedly **the primary driver of the hotel’s revenue**. In contrast, **the segment with the least value is Aviation**, which recorded only 17 guests, an ALOS of 87 nights, an ADR of $1,717, a RevPAR of $9,563, and total revenue of $79,520.
 
 <img width="1200" height="312" alt="image" src="https://github.com/user-attachments/assets/36f2bb90-1d3b-4ceb-ac85-ea58b2d9f03e" />
 
@@ -412,10 +412,24 @@ This comprehensive analysis of the most valuable market segments synthesizes key
 ---
 **By distribution channels**
 
+
 <img width="1200" height="234" alt="image" src="https://github.com/user-attachments/assets/8320dd9a-d50c-4fe2-9672-406d5ab9670e" />
 
 
 
 ---
 ---
-**Marketing Team**
+**MARKETING TEAM**
+
+•	Question 1: What are the most effective market segments and channels for securing bookings that do not get canceled?
+
+•	Question 2: Which countries are the top sources of guests, and how does their booking lead time and cancellation rate vary?
+
+
+---
+---
+**OPERATIONS & RESERVATIONS TEAM**
+
+•	Question 1: How far in advance (lead time) do guests typically book, and does a longer lead time correlate with a higher chance of cancellation?
+
+•	Question 2: What is the most common room type (assigned_room_type) booked, and how often do guests get upgraded/downgraded from their reserved_room_type?
