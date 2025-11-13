@@ -436,7 +436,7 @@ The most significant revenue source is the Travel Agency/Tour Operator (TA/TO) c
 
 1. Revenue Diversification
 
-**Goal:** Increase direct channel from 14% to 25% of revenue
+- Increase direct channel from 14% to 25% of revenue
 - Invest in CRM and direct marketing
 - Develop corporate portal for direct bookings
 
