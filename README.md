@@ -412,10 +412,43 @@ This analysis of the most valuable market segments synthesizes key performance m
 ---
 **By distribution channels**
 
+The most significant revenue source is the Travel Agency/Tour Operator (TA/TO) channel, which served 1,548 guests across 2,757 stays, generating a total revenue of $31 million. This indicates that **the TA/TO channel is the primary and most valuable channel** for both the city hotel and the resort. The **second most valuable channel is the Direct channel**, which served 618 guests with 984 stays and generated a total revenue of $5 million. The **least valuable channel is the undefined segment**, which generated a total revenue of $1,099, resulting in a revenue per guest (RPG) of $219.
 
 <img width="1200" height="234" alt="image" src="https://github.com/user-attachments/assets/8320dd9a-d50c-4fe2-9672-406d5ab9670e" />
 
+**Key Implications**
 
+1. Channel Dependency Risk
+- TA/TO channels dominate with 65% of guests and 86% of revenue
+- High vulnerability to commission costs and third-party dependency. 
+- Direct channel underperforming relative to its potential. 26% of guests and 14% of revenue
+
+2. Pricing Power Insights
+- TA/TO demonstrates strong pricing power ($81,734 ADR)
+- Direct accepting premium rates ($35,206 ADR) with good length of stay (984 nights).
+- Corporate show willingness to pay for extended stays
+
+3. Revenue Concentration
+- Top 3 channels generate 98.8% of total revenue
+- High reliance on TA/TO partnerships
+
+**Strategic Recommendations**
+
+1. Revenue Diversification
+
+**Goal:** Increase direct channel from 14% to 25% of revenue
+- Invest in CRM and direct marketing
+- Develop corporate portal for direct bookings
+
+2.	Portfolio Optimization
+- Reduce dependency on high-commission channels
+- Develop proprietary technology for direct bookings
+- Build segment-specific value propositions
+
+3.	Dynamic Pricing Strategy
+•	Channel-based pricing: Differentiate rates by channel value
+•	Length-of-stay optimization: Incentivize longer bookings in high-ADR segments
+•	Corporate rate restructuring: Move from flat to dynamic corporate pricing
 
 ---
 ---
@@ -424,6 +457,10 @@ This analysis of the most valuable market segments synthesizes key performance m
 •	Question 1: What are the most effective market segments and channels for securing bookings that do not get canceled?
 
 •	Question 2: Which countries are the top sources of guests, and how does their booking lead time and cancellation rate vary?
+
+**Top 10 Sources of Guests by Hotel Type**
+
+<img width="1502" height="962" alt="image" src="https://github.com/user-attachments/assets/935c0a9f-6684-4265-b667-6c2fe4216cc9" />
 
 
 ---
