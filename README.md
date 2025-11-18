@@ -463,6 +463,8 @@ The most significant revenue source is the Travel Agency/Tour Operator (TA/TO) c
 <img width="1502" height="962" alt="image" src="https://github.com/user-attachments/assets/935c0a9f-6684-4265-b667-6c2fe4216cc9" />
 
 
+<img width="975" height="644" alt="image" src="https://github.com/user-attachments/assets/8324b42f-1988-44f0-8c44-35cdd910f970" />
+
 ---
 ---
 **OPERATIONS & RESERVATIONS TEAM**
