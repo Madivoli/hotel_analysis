@@ -54,7 +54,8 @@ This section explores the **year-over-year (YoY) growth** in both bookings and r
 
 **Performance Metrics by Hotel Type**
 
-<img width="1200" height="488" alt="image" src="https://github.com/user-attachments/assets/e07efc53-e2f1-499c-9cf2-e246f287bffc" />
+
+<img width="1200" height="233" alt="image" src="https://github.com/user-attachments/assets/6bddbc97-9e18-4d4a-8f39-94cba54d6df6" />
 
 **Segment-Specific Insights**
 
