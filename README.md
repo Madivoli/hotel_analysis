@@ -95,7 +95,8 @@ This analysis **examines the rate at which each hotel's actual revenue is growin
 **Insights:**
 - The analysis reveals **a distinct pattern characterized by pronounced peaks followed by troughs**, indicative of **a strong cyclical trend**.
 - This pattern is **typical of seasonal businesses where demand peaks during specific months**, such as summer and the holiday season, while **experiencing declines during other periods**.
-- For example, the City Hotel experienced **a revenue peak in  November**, followed by **a dip from December to February**. Conversely, the Resort experienced **a surge in revenue from December to January**, with a subsequent **decline from February to March (notably negative revenue)**.
+- The City hotel experienced **a revenue peak in  November**, followed by **a dip from December to February**. 
+- The Resort hotel, on the other hand, experienced **a surge in revenue from December to January**, with a subsequent **decline from February to March (notably negative revenue)**.
 - Further investigation is required to **ascertain the underlying cause of the negative revenue observed in March**.
 
 <img width="1500" height="277" alt="image" src="https://github.com/user-attachments/assets/5a6e7c55-7ad9-4164-9f4f-f387bee4a139" />
