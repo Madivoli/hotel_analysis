@@ -79,7 +79,7 @@ This section explores the **year-over-year (YoY) growth** in both bookings and r
     - **Drive engagement** by introducing a highly visible "_Personalise Your Stay_" pop-up during the City Hotel booking flow that requires the guest to choose at least one item (e.g., preferred bed size, floor level, early check-in preference). This artificially increases the Special Requests figure (engagement) and guest psychological commitment.
 - The Resort Hotel's policy should be **softer to maintain the slightly better booking behaviour and optimize revenue**.
 - This is achieved by:
-    - **Incentivising commitment.** For all resort bookings with a lead time >90$ days, the reservation department should send a "Commitment Offer" at the 60-day mark: "_Confirm your stay is non-refundable now for an extra $10 off_, or _receive a complimentary spa voucher/resort credit._" **This encourages the guest to commit financially for a perk**.
+    - **Incentivising commitment.** For all resort bookings with a lead time >90 days, the reservation department should send a "Commitment Offer" at the 60-day mark: "_Confirm your stay is non-refundable now for an extra $10 off_, or _receive a complimentary spa voucher/resort credit._" **This encourages the guest to commit financially for a perk**.
     - **Utilising engagement.** Focus should be on **upselling** via special requests (e.g., pre-ordering cabana rentals, dinner reservations, or package upgrades) **to secure additional ancillary revenue and further cement the bookings**.
 
 
